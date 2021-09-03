@@ -250,87 +250,11 @@ export const Test = () => {
             </div>
 
 
-            <div className="site-navbar-wrap">
-                <div className="site-navbar-top">
-                    <div className="container py-2">
-                        <div className="row align-items-center">
-                            <div className="col-6">
-                                <a href="#" className="p-2 pl-0"><span className="icon-twitter"></span></a>
-                                <a href="#" className="p-2 pl-0"><span className="icon-facebook"></span></a>
-                                <a href="#" className="p-2 pl-0"><span className="icon-linkedin"></span></a>
-                                <a href="#" className="p-2 pl-0"><span className="icon-instagram"></span></a>
-                            </div>
-                            <div className="col-6">
-                                <div className="d-flex ml-auto">
-                                    <a href="#" className="d-flex align-items-center ml-auto mr-4">
-                                        <span className="icon-phone mr-2"></span>
-                                        <span className="d-none d-md-inline-block">youremail@domain.com</span>
-                                    </a>
-                                    <a href="#" className="d-flex align-items-center">
-                                        <span className="icon-envelope mr-2"></span>
-                                        <span className="d-none d-md-inline-block">+1 291 2830 302</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="site-navbar">
-                    <div className="container py-1">
-                        <div className="row align-items-center">
-                            <div className="col-2">
-                                <h2 className="mb-0 site-logo"><a href="index.html">Dente</a></h2>
-                            </div>
-                            <div className="col-10">
-                                <nav className="site-navigation text-right" role="navigation">
-                                    <div className="container">
-                                        <div className="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#"
-                                                className="site-menu-toggle js-menu-toggle text-white"><span
-                                                    className="icon-menu h3"></span></a></div>
-
-                                        <ul className="site-menu js-clone-nav d-none d-lg-block">
-                                            <li className="has-children active">
-                                                <a href="index.html">Home</a>
-                                                <ul className="dropdown arrow-top">
-                                                    <li><a href="#">Menu One</a></li>
-                                                    <li><a href="#">Menu Two</a></li>
-                                                    <li><a href="#">Menu Three</a></li>
-                                                    <li className="has-children">
-                                                        <a href="#">Sub Menu</a>
-                                                        <ul className="dropdown">
-                                                            <li><a href="#">Menu One</a></li>
-                                                            <li><a href="#">Menu Two</a></li>
-                                                            <li><a href="#">Menu Three</a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li className="has-children">
-                                                <a href="patients.html">Patients</a>
-                                                <ul className="dropdown arrow-top">
-                                                    <li><a href="#">Menu One</a></li>
-                                                    <li><a href="#">Menu Two</a></li>
-                                                    <li><a href="#">Menu Three</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="news.html">News</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div className="site-blocks-cover" style={{backgroundImage: "url(images/hero_bg_1.jpg)"}} data-aos="fade"
                 data-stellar-background-ratio="0.5">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-md-7">
+                        <div className="col-md-6">
                             <span className="sub-text">We Priority Your</span>
                             <h1>Your <strong>New Smile</strong></h1>
                         </div>
@@ -343,8 +267,8 @@ export const Test = () => {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="site-block-feature d-flex p-4 rounded mb-4">
-                                <div className="mr-3">
-                                    <span className="icon flaticon-tooth font-weight-light text-white h2"></span>
+                                <div className="me-3">
+                                    <span className="icon flaticon-tooth fw-light text-white h2"></span>
                                 </div>
                                 <div className="text">
                                     <h3>Periontodology</h3>
@@ -354,8 +278,8 @@ export const Test = () => {
                         </div>
                         <div className="col-lg-4">
                             <div className="site-block-feature d-flex p-4 rounded mb-4">
-                                <div className="mr-3">
-                                    <span className="icon flaticon-tooth-whitening font-weight-light text-white h2"></span>
+                                <div className="me-3">
+                                    <span className="icon flaticon-tooth-whitening fw-light text-white h2"></span>
                                 </div>
                                 <div className="text">
                                     <h3>Tooth Whitening</h3>
@@ -365,8 +289,8 @@ export const Test = () => {
                         </div>
                         <div className="col-lg-4">
                             <div className="site-block-feature d-flex p-4 rounded mb-4">
-                                <div className="mr-3">
-                                    <span className="icon flaticon-tooth-pliers font-weight-light text-white h2"></span>
+                                <div className="me-3">
+                                    <span className="icon flaticon-tooth-pliers fw-light text-white h2"></span>
                                 </div>
                                 <div className="text">
                                     <h3>Preventative Care</h3>
@@ -439,8 +363,8 @@ export const Test = () => {
             <div className="site-section site-block-appointment">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 mb-5 pl-lg-5 order-1 order-lg-2">
-                            <div className="pl-lg-5 ml-lg-5">
+                        <div className="col-lg-6 mb-5 ps-lg-5 order-1 order-lg-2">
+                            <div className="ps-lg-5 ms-lg-5">
                                 <h2 className="site-heading text-black">Online <strong>Appointment</strong> Request Form
                                 </h2>
                                 <p className="lead text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -455,32 +379,32 @@ export const Test = () => {
 
                             <form action="#" className="p-5 bg-white">
 
-                                <div className="row form-group">
+                                <div className="row mb-3">
                                     <div className="col-md-6 mb-3 mb-md-0">
-                                        <label className="font-weight-bold" htmlFor="fname">First Name</label>
+                                        <label className="fw-bold" htmlFor="fname">First Name</label>
                                         <input type="text" id="fname" className="form-control" placeholder="First Name"/>
                                     </div>
                                     <div className="col-md-6">
-                                        <label className="font-weight-bold" htmlFor="lname">Last Name</label>
+                                        <label className="fw-bold" htmlFor="lname">Last Name</label>
                                         <input type="text" id="lname" className="form-control" placeholder="Last Name"/>
                                     </div>
                                 </div>
 
-                                <div className="row form-group">
+                                <div className="row mb-3">
                                     <div className="col-md-6 mb-3 mb-md-0">
-                                        <label className="font-weight-bold" htmlFor="date">Date</label>
+                                        <label className="fw-bold" htmlFor="date">Date</label>
                                         <input type="text" id="date" className="form-control datepicker px-2"
                                             placeholder="Date of visit"/>
                                     </div>
                                     <div className="col-md-6">
-                                        <label className="font-weight-bold" htmlFor="email">Email</label>
+                                        <label className="fw-bold" htmlFor="email">Email</label>
                                         <input type="email" id="email" className="form-control" placeholder="Email"/>
                                     </div>
                                 </div>
 
-                                <div className="row form-group">
+                                <div className="row mb-3">
                                     <div className="col-md-12">
-                                        <label className="font-weight-bold" htmlFor="treatment">Treatment Needed</label>
+                                        <label className="fw-bold" htmlFor="treatment">Treatment Needed</label>
                                         <select name="treatment" id="treatment" className="form-control">
                                             <option value="">Dental exam and teeth cleaning</option>
                                             <option value="">Dental emergency</option>
@@ -489,15 +413,15 @@ export const Test = () => {
                                     </div>
                                 </div>
 
-                                <div className="row form-group">
+                                <div className="row mb-3">
                                     <div className="col-md-12">
-                                        <label className="font-weight-bold" htmlFor="note">Notes</label>
+                                        <label className="fw-bold" htmlFor="note">Notes</label>
                                         <textarea name="note" id="note" cols="30" rows="5" className="form-control"
                                             placeholder="Write your notes or questions here..."></textarea>
                                     </div>
                                 </div>
 
-                                <div className="row form-group">
+                                <div className="row mb-3">
                                     <div className="col-md-12">
                                         <input type="submit" value="Send" className="btn btn-primary"/>
                                     </div>
@@ -513,8 +437,8 @@ export const Test = () => {
 
             <div className="promo py-5 bg-primary">
                 <div className="container text-center">
-                    <span className="d-block h4 mb-3 font-weight-light text-white">Promo For Tooth Cleaning from
-                        <del>$140.00</del> now <strong className="font-weight-bold">$50.00</strong></span>
+                    <span className="d-block h4 mb-3 fw-light text-white">Promo For Tooth Cleaning from
+                        <del>$140.00</del> now <strong className="fw-bold">$50.00</strong></span>
                     <div id="date-countdown" className="mt-0"></div>
                 </div>
             </div>
@@ -530,8 +454,8 @@ export const Test = () => {
                     <div className="row">
                         <div className="col-md-6 col-lg-4">
                             <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="mr-3">
-                                    <span className="icon flaticon-tooth-whitening font-weight-light "></span>
+                                <div className="me-3">
+                                    <span className="icon flaticon-tooth-whitening fw-light "></span>
                                 </div>
                                 <div className="text">
                                     <h3>Tooth Whitening</h3>
@@ -543,8 +467,8 @@ export const Test = () => {
 
                         <div className="col-md-6 col-lg-4">
                             <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="mr-3">
-                                    <span className="icon flaticon-stethoscope font-weight-light "></span>
+                                <div className="me-3">
+                                    <span className="icon flaticon-stethoscope fw-light "></span>
                                 </div>
                                 <div className="text">
                                     <h3>Stethoscope</h3>
@@ -556,8 +480,8 @@ export const Test = () => {
 
                         <div className="col-md-6 col-lg-4">
                             <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="mr-3">
-                                    <span className="icon flaticon-dentist-chair font-weight-light "></span>
+                                <div className="me-3">
+                                    <span className="icon flaticon-dentist-chair fw-light "></span>
                                 </div>
                                 <div className="text">
                                     <h3>Dentist Chair</h3>
@@ -569,8 +493,8 @@ export const Test = () => {
 
                         <div className="col-md-6 col-lg-4">
                             <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="mr-3">
-                                    <span className="icon flaticon-tooth-pliers font-weight-light "></span>
+                                <div className="me-3">
+                                    <span className="icon flaticon-tooth-pliers fw-light "></span>
                                 </div>
                                 <div className="text">
                                     <h3>Tooth Pliers</h3>
@@ -582,8 +506,8 @@ export const Test = () => {
 
                         <div className="col-md-6 col-lg-4">
                             <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="mr-3">
-                                    <span className="icon flaticon-first-aid-kit font-weight-light "></span>
+                                <div className="me-3">
+                                    <span className="icon flaticon-first-aid-kit fw-light "></span>
                                 </div>
                                 <div className="text">
                                     <h3>First Aid Kit</h3>
@@ -595,8 +519,8 @@ export const Test = () => {
 
                         <div className="col-md-6 col-lg-4">
                             <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="mr-3">
-                                    <span className="icon flaticon-dentist-tools font-weight-light "></span>
+                                <div className="me-3">
+                                    <span className="icon flaticon-dentist-tools fw-light "></span>
                                 </div>
                                 <div className="text">
                                     <h3>Dentist Tools</h3>
@@ -646,7 +570,7 @@ export const Test = () => {
                                 <div>
                                     <p>Dolores perferendis ipsam animi fuga, dolor pariatur aliquam esse. Modi maiores
                                         minus velit iste enim sunt iusto dolore</p>
-                                    <p><strong className="font-weight-bold">Nathalie Oscar</strong></p>
+                                    <p><strong className="fw-bold">Nathalie Oscar</strong></p>
                                 </div>
                             </div>
                         </div>
@@ -658,7 +582,7 @@ export const Test = () => {
                                 <div>
                                     <p>Dolores perferendis ipsam animi fuga dolor pariatur aliquam esse. Modi maiores
                                         minus velit iste enim sunt iusto dolore</p>
-                                    <p><strong className="font-weight-bold">Linda Uler</strong></p>
+                                    <p><strong className="fw-bold">Linda Uler</strong></p>
                                 </div>
                             </div>
                         </div>
@@ -671,7 +595,7 @@ export const Test = () => {
                                 <div>
                                     <p>Dolores perferendis ipsam animi fuga dolor pariatur aliquam esse. Modi maiores
                                         minus velit iste enim sunt iusto dolore</p>
-                                    <p><strong className="font-weight-bold">Chris Coodard</strong></p>
+                                    <p><strong className="fw-bold">Chris Coodard</strong></p>
                                 </div>
                             </div>
                         </div>
@@ -722,36 +646,36 @@ export const Test = () => {
                                     <ul className="list-unstyled">
                                         <li className="mb-3">
                                             <a href="#" className="d-flex">
-                                                <figure className="image mr-4">
+                                                <figure className="image me-4">
                                                     <img src={`images/hero_bg_1.jpg`} alt="" className="img-fluid"/>
                                                 </figure>
                                                 <div className="text">
                                                     <span className="small text-uppercase date">Sep 16, 2018</span>
-                                                    <h3 className="heading font-weight-light">Lorem ipsum dolor sit amet
+                                                    <h3 className="heading fw-light">Lorem ipsum dolor sit amet
                                                         consectetur elit</h3>
                                                 </div>
                                             </a>
                                         </li>
                                         <li className="mb-3">
                                             <a href="#" className="d-flex">
-                                                <figure className="image mr-4">
+                                                <figure className="image me-4">
                                                     <img src={`images/hero_bg_1.jpg`} alt="" className="img-fluid"/>
                                                 </figure>
                                                 <div className="text">
                                                     <span className="small text-uppercase date">Sep 16, 2018</span>
-                                                    <h3 className="heading font-weight-light">Lorem ipsum dolor sit amet
+                                                    <h3 className="heading fw-light">Lorem ipsum dolor sit amet
                                                         consectetur elit</h3>
                                                 </div>
                                             </a>
                                         </li>
                                         <li className="mb-3">
                                             <a href="#" className="d-flex">
-                                                <figure className="image mr-4">
+                                                <figure className="image me-4">
                                                     <img src={`images/hero_bg_1.jpg`} alt="" className="img-fluid"/>
                                                 </figure>
                                                 <div className="text">
                                                     <span className="small text-uppercase date">Sep 16, 2018</span>
-                                                    <h3 className="heading font-weight-light">Lorem ipsum dolor sit amet
+                                                    <h3 className="heading fw-light">Lorem ipsum dolor sit amet
                                                         consectetur elit</h3>
                                                 </div>
                                             </a>
@@ -788,10 +712,10 @@ export const Test = () => {
                                     <h3 className="footer-heading mb-4">Follow Us</h3>
 
                                     <div>
-                                        <a href="#" className="pl-0 pr-3"><span className="icon-facebook"></span></a>
-                                        <a href="#" className="pl-3 pr-3"><span className="icon-twitter"></span></a>
-                                        <a href="#" className="pl-3 pr-3"><span className="icon-instagram"></span></a>
-                                        <a href="#" className="pl-3 pr-3"><span className="icon-linkedin"></span></a>
+                                        <a href="#" className="ps-0 pe-3"><span className="icon-facebook"></span></a>
+                                        <a href="#" className="ps-3 pe-3"><span className="icon-twitter"></span></a>
+                                        <a href="#" className="ps-3 pe-3"><span className="icon-instagram"></span></a>
+                                        <a href="#" className="ps-3 pe-3"><span className="icon-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>

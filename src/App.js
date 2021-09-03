@@ -11,6 +11,8 @@ import AOS from 'aos';
 
 //components
 import { Test } from './components/test';
+import { NavBar } from './components/navBar';
+import { BrowserRouter } from 'react-router-dom'
 
 
 function App() {
@@ -23,7 +25,10 @@ function App() {
 
   return (
     <div className="App">
-      <Test/>
+      <BrowserRouter  basename={"/smilemakers"}>
+        <NavBar/>
+        <Test/>
+      </BrowserRouter>
     </div>
   );
 }
