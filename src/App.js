@@ -1,10 +1,11 @@
 //styles
 import 'aos/dist/aos.css'; 
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 import 'magnific-popup/dist/magnific-popup.css'
-import './App.css';
+import './App.scss';
 //scripts
 import 'bootstrap/dist/js/bootstrap.js'
+import "magnific-popup/dist/jquery.magnific-popup.js"
 
 //modules
 import AOS from 'aos';
@@ -13,6 +14,7 @@ import AOS from 'aos';
 import { Test } from './components/test';
 import { NavBar } from './components/navBar';
 import { BrowserRouter } from 'react-router-dom'
+import ContactBubble from './components/contactBubble';
 
 
 function App() {
@@ -25,9 +27,10 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter  basename={"/smilemakers"}>
+      <BrowserRouter  basename={"/"}>
         <NavBar/>
         <Test/>
+        <ContactBubble/>
       </BrowserRouter>
     </div>
   );
