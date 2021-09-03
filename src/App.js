@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+//styles
+import 'aos/dist/aos.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'magnific-popup/dist/magnific-popup.css'
 import './App.css';
+//scripts
+import 'bootstrap/dist/js/bootstrap.js'
+
+//modules
+import AOS from 'aos';
+
+//components
+import { Test } from './components/test';
+
 
 function App() {
+
+  AOS.init({
+    duration: 800,
+    easing: 'slide',
+    once: true
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Test/>
     </div>
   );
 }
