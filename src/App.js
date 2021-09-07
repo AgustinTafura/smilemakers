@@ -20,6 +20,7 @@ import { Faq } from './components/faq';
 import { Braces } from './components/braces';
 import { Benefits } from './components/benefits';
 import { Treatment } from './components/treatment';
+import { FindUs } from './components/findUs';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Braces/>
         <Treatment/>
         <Benefits/>
+        <FindUs/>
         <Faq/>
         <ContactBubble/>
       </BrowserRouter>
