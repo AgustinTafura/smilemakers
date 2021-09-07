@@ -1,5 +1,7 @@
+$flaticon-font: "flaticon";
+
 @font-face {
-    font-family: "flaticon";
+    font-family: $flaticon-font;
     src: url("./flaticon.ttf?a1b3d1d5d213ada575acea737de0742d") format("truetype"),
 url("./flaticon.woff?a1b3d1d5d213ada575acea737de0742d") format("woff"),
 url("./flaticon.woff2?a1b3d1d5d213ada575acea737de0742d") format("woff2"),
@@ -18,18 +20,26 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
+$flaticon-map: (
+    "scanner": "\f101",
+    "dentist": "\f102",
+    "dentist-chair": "\f103",
+    "scan": "\f104",
+    "scan-1": "\f105",
+);
+
 .flaticon-scanner:before {
-    content: "\f101";
+    content: map-get($flaticon-map, "scanner");
 }
 .flaticon-dentist:before {
-    content: "\f102";
+    content: map-get($flaticon-map, "dentist");
 }
 .flaticon-dentist-chair:before {
-    content: "\f103";
+    content: map-get($flaticon-map, "dentist-chair");
 }
 .flaticon-scan:before {
-    content: "\f104";
+    content: map-get($flaticon-map, "scan");
 }
 .flaticon-scan-1:before {
-    content: "\f105";
+    content: map-get($flaticon-map, "scan-1");
 }

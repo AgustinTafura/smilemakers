@@ -20,6 +20,8 @@ export const NavBar = () => {
         var navbar = document.querySelector('.site-navbar')
         var scrollYposition = window.scrollY
         navbar.style.backgroundColor = `rgb(255 255 255 / ${scrollYposition*1.5/700})`;
+        navbar.style['boxShadow'] = `4px 0 20px -5px rgba(0, 0, 0, ${scrollYposition/700})`;
+        console.log(scrollYposition)
     }
 
     useEffect(() => {

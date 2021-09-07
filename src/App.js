@@ -2,6 +2,7 @@
 import 'aos/dist/aos.css'; 
 // import 'bootstrap/dist/css/bootstrap.min.css'
 import 'magnific-popup/dist/magnific-popup.css'
+import './customBootstrap.scss';
 import './App.scss';
 //scripts
 import 'bootstrap/dist/js/bootstrap.js'
@@ -15,6 +16,9 @@ import { Test } from './components/test';
 import { NavBar } from './components/navBar';
 import { BrowserRouter } from 'react-router-dom'
 import ContactBubble from './components/contactBubble';
+import { Faq } from './components/faq';
+import { Braces } from './components/braces';
+import { Benefits } from './components/benefits';
 
 
 function App() {
@@ -29,7 +33,12 @@ function App() {
     <div className="App">
       <BrowserRouter  basename={"/"}>
         <NavBar/>
+
         <Test/>
+
+        <Braces/>
+        <Benefits/>
+        <Faq/>
         <ContactBubble/>
       </BrowserRouter>
     </div>

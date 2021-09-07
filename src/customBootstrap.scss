@@ -1,0 +1,30 @@
+// Import Bootstrap and its default variables
+
+// Override default variables before the import
+:root {
+    --primary: #505e7a;
+    --secondary: #83c7d3;
+    --success: #80E0B9;
+    --info: #17a2b8;
+    --warning: #809FE0;
+    --danger: #A16054;
+    --light: #f8f9fa;
+    --dark: #272D3B;
+}
+
+
+// Your variable overrides
+
+// ACCORDION
+$accordion-color: var(--primary);
+$accordion-button-active-color:var(--primary);
+$accordion-button-active-bg: rgba(80, 94, 122, 0.1);
+$btn-focus-box-shadow: none; // 0 0 0 0.25rem rgba(80, 94, 122, 0.25);
+$accordion-icon-active-color: var(--primary);
+
+
+
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+

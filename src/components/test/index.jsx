@@ -107,7 +107,7 @@ export const Test = () => {
 
             <div className="site-mobile-menu">
                 <div className="site-mobile-menu-header">
-                     <img src={`images/logo.png`} alt="logo brand smilemakers"/>
+                    <img src={`images/logo.png`} alt="logo brand smilemakers"/>
                     <div className="site-mobile-menu-close">
                         <span className="icon-close2 js-menu-toggle"></span>
                     </div>
@@ -181,7 +181,7 @@ export const Test = () => {
                                     <Link to="/" className="d-flex text-center feature active p-4 mb-4">
                                         <span className="align-self-center w-100">
                                             <span className="d-block mb-3">
-                                                <span className="flaticon-tooth-whitening display-3"></span>
+                                                <i className="flaticon-tooth-whitening display-3"></i>
                                             </span>
                                             <h3>Tooth Whitening</h3>
                                         </span>
@@ -191,7 +191,7 @@ export const Test = () => {
                                     <Link to="/" className="d-flex text-center feature p-4 mb-4">
                                         <span className="align-self-center w-100">
                                             <span className="d-block mb-3">
-                                                <span className="flaticon-stethoscope display-3"></span>
+                                                <i className="flaticon-stethoscope display-3"></i>
                                             </span>
                                             <h3>Stethoscope</h3>
                                         </span>
@@ -203,7 +203,7 @@ export const Test = () => {
                                     <Link to="/" className="d-flex text-center feature p-4 mb-4">
                                         <span className="align-self-center w-100">
                                             <span className="d-block mb-3">
-                                                <span className="flaticon-first-aid-kit display-3"></span>
+                                                <i className="flaticon-first-aid-kit display-3"></i>
                                             </span>
                                             <h3>First Aid Kit</h3>
                                         </span>
@@ -213,7 +213,7 @@ export const Test = () => {
                                     <Link to="/" className="d-flex text-center active feature p-4 mb-4">
                                         <span className="align-self-center w-100">
                                             <span className="d-block mb-3">
-                                                <span className="flaticon-tooth-pliers display-3"></span>
+                                                <i className="flaticon-tooth-pliers display-3"></i>
                                             </span>
                                             <h3>Tooth Pliers</h3>
                                         </span>
@@ -311,97 +311,7 @@ export const Test = () => {
             </div>
 
 
-            <div className="site-section bg-light">
-                <div className="container">
-                    <div className="row mb-5 justify-content-center">
-                        <div className="col-md-6 text-center">
-                            <h2 className="site-heading text-black mb-5">Our <strong>Services</strong></h2>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-6 col-lg-4">
-                            <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="me-3">
-                                    <span className="icon flaticon-tooth-whitening fw-light "></span>
-                                </div>
-                                <div className="text">
-                                    <h3>Tooth Whitening</h3>
-                                    <p>Sunt illum fugit doloremque eaque omnis dolor sint fuga eligendi quis magnam
-                                        Laboriosam facilis.</p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div className="col-md-6 col-lg-4">
-                            <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="me-3">
-                                    <span className="icon flaticon-stethoscope fw-light "></span>
-                                </div>
-                                <div className="text">
-                                    <h3>Stethoscope</h3>
-                                    <p>Sunt illum fugit doloremque eaque omnis dolor sint fuga eligendi quis magnam
-                                        Laboriosam facilis.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="me-3">
-                                    <span className="icon flaticon-dentist-chair fw-light "></span>
-                                </div>
-                                <div className="text">
-                                    <h3>Dentist Chair</h3>
-                                    <p>Sunt illum fugit doloremque eaque omnis dolor sint fuga eligendi quis magnam
-                                        Laboriosam facilis.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="me-3">
-                                    <span className="icon flaticon-tooth-pliers fw-light "></span>
-                                </div>
-                                <div className="text">
-                                    <h3>Tooth Pliers</h3>
-                                    <p>Sunt illum fugit doloremque eaque omnis dolor sint fuga eligendi quis magnam
-                                        Laboriosam facilis.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="me-3">
-                                    <span className="icon flaticon-first-aid-kit fw-light "></span>
-                                </div>
-                                <div className="text">
-                                    <h3>First Aid Kit</h3>
-                                    <p>Sunt illum fugit doloremque eaque omnis dolor sint fuga eligendi quis magnam
-                                        Laboriosam facilis.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <div className="site-block-feature-2 d-flex rounded mb-5">
-                                <div className="me-3">
-                                    <span className="icon flaticon-dentist-tools fw-light "></span>
-                                </div>
-                                <div className="text">
-                                    <h3>Dentist Tools</h3>
-                                    <p>Sunt illum fugit doloremque eaque omnis dolor sint fuga eligendi quis magnam
-                                        Laboriosam facilis.</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </div>
 
             <div className="site-block-half d-block d-lg-flex site-block-video">
                 <div className="image bg-image order-2" style={{backgroundImage: "url(images/hero_bg_1.jpg)"}}>
