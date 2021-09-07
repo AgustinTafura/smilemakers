@@ -19,6 +19,7 @@ import ContactBubble from './components/contactBubble';
 import { Faq } from './components/faq';
 import { Braces } from './components/braces';
 import { Benefits } from './components/benefits';
+import { Treatment } from './components/treatment';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Test/>
 
         <Braces/>
+        <Treatment/>
         <Benefits/>
         <Faq/>
         <ContactBubble/>
