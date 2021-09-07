@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?a1b3d1d5d213ada575acea737de0742d") format("truetype"),
-url("./flaticon.woff?a1b3d1d5d213ada575acea737de0742d") format("woff"),
-url("./flaticon.woff2?a1b3d1d5d213ada575acea737de0742d") format("woff2"),
-url("./flaticon.eot?a1b3d1d5d213ada575acea737de0742d#iefix") format("embedded-opentype"),
-url("./flaticon.svg?a1b3d1d5d213ada575acea737de0742d#flaticon") format("svg");
+    src: url("./flaticon.ttf?26848bca9ead4fe863168003f17ecba6") format("truetype"),
+url("./flaticon.woff?26848bca9ead4fe863168003f17ecba6") format("woff"),
+url("./flaticon.woff2?26848bca9ead4fe863168003f17ecba6") format("woff2"),
+url("./flaticon.eot?26848bca9ead4fe863168003f17ecba6#iefix") format("embedded-opentype"),
+url("./flaticon.svg?26848bca9ead4fe863168003f17ecba6#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -21,25 +21,121 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 
 $flaticon-map: (
-    "scanner": "\f101",
-    "dentist": "\f102",
-    "dentist-chair": "\f103",
-    "scan": "\f104",
-    "scan-1": "\f105",
+    "invisible": "\f101",
+    "invisible-1": "\f102",
+    "silla-dentista": "\f103",
+    "silla-de-dentista": "\f104",
+    "diente": "\f105",
+    "dentista": "\f106",
+    "diente-1": "\f107",
+    "dental": "\f108",
+    "dentista-1": "\f109",
+    "cepillo-de-dientes": "\f10a",
+    "enjuague-bucal": "\f10b",
+    "calendario": "\f10c",
+    "cheque": "\f10d",
+    "escanear": "\f10e",
+    "ojo": "\f10f",
+    "ojo-1": "\f110",
+    "cuchillo": "\f111",
+    "restaurante": "\f112",
+    "cheque-1": "\f113",
+    "marca-de-verificacion-contorno-negro": "\f114",
+    "escaner": "\f115",
+    "actualizar": "\f116",
+    "viajar": "\f117",
+    "equipaje": "\f118",
+    "cama-solar": "\f119",
+    "actualizar-1": "\f11a",
+    "actualizar-2": "\f11b",
+    "actualizar-3": "\f11c",
+    "actualizar-4": "\f11d",
 );
 
-.flaticon-scanner:before {
-    content: map-get($flaticon-map, "scanner");
+.flaticon-invisible:before {
+    content: map-get($flaticon-map, "invisible");
 }
-.flaticon-dentist:before {
-    content: map-get($flaticon-map, "dentist");
+.flaticon-invisible-1:before {
+    content: map-get($flaticon-map, "invisible-1");
 }
-.flaticon-dentist-chair:before {
-    content: map-get($flaticon-map, "dentist-chair");
+.flaticon-silla-dentista:before {
+    content: map-get($flaticon-map, "silla-dentista");
 }
-.flaticon-scan:before {
-    content: map-get($flaticon-map, "scan");
+.flaticon-silla-de-dentista:before {
+    content: map-get($flaticon-map, "silla-de-dentista");
 }
-.flaticon-scan-1:before {
-    content: map-get($flaticon-map, "scan-1");
+.flaticon-diente:before {
+    content: map-get($flaticon-map, "diente");
+}
+.flaticon-dentista:before {
+    content: map-get($flaticon-map, "dentista");
+}
+.flaticon-diente-1:before {
+    content: map-get($flaticon-map, "diente-1");
+}
+.flaticon-dental:before {
+    content: map-get($flaticon-map, "dental");
+}
+.flaticon-dentista-1:before {
+    content: map-get($flaticon-map, "dentista-1");
+}
+.flaticon-cepillo-de-dientes:before {
+    content: map-get($flaticon-map, "cepillo-de-dientes");
+}
+.flaticon-enjuague-bucal:before {
+    content: map-get($flaticon-map, "enjuague-bucal");
+}
+.flaticon-calendario:before {
+    content: map-get($flaticon-map, "calendario");
+}
+.flaticon-cheque:before {
+    content: map-get($flaticon-map, "cheque");
+}
+.flaticon-escanear:before {
+    content: map-get($flaticon-map, "escanear");
+}
+.flaticon-ojo:before {
+    content: map-get($flaticon-map, "ojo");
+}
+.flaticon-ojo-1:before {
+    content: map-get($flaticon-map, "ojo-1");
+}
+.flaticon-cuchillo:before {
+    content: map-get($flaticon-map, "cuchillo");
+}
+.flaticon-restaurante:before {
+    content: map-get($flaticon-map, "restaurante");
+}
+.flaticon-cheque-1:before {
+    content: map-get($flaticon-map, "cheque-1");
+}
+.flaticon-marca-de-verificacion-contorno-negro:before {
+    content: map-get($flaticon-map, "marca-de-verificacion-contorno-negro");
+}
+.flaticon-escaner:before {
+    content: map-get($flaticon-map, "escaner");
+}
+.flaticon-actualizar:before {
+    content: map-get($flaticon-map, "actualizar");
+}
+.flaticon-viajar:before {
+    content: map-get($flaticon-map, "viajar");
+}
+.flaticon-equipaje:before {
+    content: map-get($flaticon-map, "equipaje");
+}
+.flaticon-cama-solar:before {
+    content: map-get($flaticon-map, "cama-solar");
+}
+.flaticon-actualizar-1:before {
+    content: map-get($flaticon-map, "actualizar-1");
+}
+.flaticon-actualizar-2:before {
+    content: map-get($flaticon-map, "actualizar-2");
+}
+.flaticon-actualizar-3:before {
+    content: map-get($flaticon-map, "actualizar-3");
+}
+.flaticon-actualizar-4:before {
+    content: map-get($flaticon-map, "actualizar-4");
 }

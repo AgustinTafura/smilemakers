@@ -5,7 +5,8 @@ export const Braces = () => {
         <div className="site-section site-block-braces">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 mb-5 ps-lg-5 order-1 order-lg-2">
+
+                    <div className="col-lg-6 mb-5 order-2 order-lg-1">
                         <div className="ps-lg-5 ms-lg-5">
                             <h2 className="site-heading text-black">
                                 Alineadores <strong>Invisibles</strong> SM<sup style={{fontVariant: 'all-small-caps'}}>®</sup>
@@ -15,8 +16,8 @@ export const Braces = () => {
                             <p className="text-black-opacity-5">Podés realizar ejercicio, hablar, besar y no vas a sentir que los llevas puestos.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6 order-2 order-lg-1">
-
+                    <div className="col-lg-6 order-1 order-lg-2 mb-5">
+                        <img src={`/images/braces.jpg`} alt="smilemakers braces alineadores invisibles " className="img-fluid"/>
                     </div>
 
                 </div>
