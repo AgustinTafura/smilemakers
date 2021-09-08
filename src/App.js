@@ -12,7 +12,7 @@ import "magnific-popup/dist/jquery.magnific-popup.js"
 import AOS from 'aos';
 
 //components
-import { Test } from './components/test';
+// import { Test } from './components/test';
 import { NavBar } from './components/navBar';
 import { BrowserRouter } from 'react-router-dom'
 import ContactBubble from './components/contactBubble';

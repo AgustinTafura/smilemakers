@@ -1,4 +1,4 @@
-import { InlineWidget,CalendlyEventListener  } from "react-calendly";
+import { InlineWidget } from "react-calendly";
 
 export const Booking = () => {
     const url = 'https://calendly.com/agustintafura/smilemakers'
