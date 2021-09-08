@@ -1,0 +1,209 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?14bec3f8c7595442fece73678a3e7d7f") format("truetype"),
+url("./flaticon.woff?14bec3f8c7595442fece73678a3e7d7f") format("woff"),
+url("./flaticon.woff2?14bec3f8c7595442fece73678a3e7d7f") format("woff2"),
+url("./flaticon.eot?14bec3f8c7595442fece73678a3e7d7f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?14bec3f8c7595442fece73678a3e7d7f#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "invisible": "\f101",
+    "invisible-1": "\f102",
+    "silla-dentista": "\f103",
+    "silla-de-dentista": "\f104",
+    "diente": "\f105",
+    "dentista": "\f106",
+    "diente-1": "\f107",
+    "dental": "\f108",
+    "dentista-1": "\f109",
+    "cepillo-de-dientes": "\f10a",
+    "enjuague-bucal": "\f10b",
+    "calendario": "\f10c",
+    "cheque": "\f10d",
+    "escanear": "\f10e",
+    "ojo": "\f10f",
+    "ojo-1": "\f110",
+    "cuchillo": "\f111",
+    "restaurante": "\f112",
+    "cheque-1": "\f113",
+    "marca-de-verificacion-contorno-negro": "\f114",
+    "escaner": "\f115",
+    "actualizar": "\f116",
+    "viajar": "\f117",
+    "equipaje": "\f118",
+    "cama-solar": "\f119",
+    "actualizar-1": "\f11a",
+    "actualizar-2": "\f11b",
+    "actualizar-3": "\f11c",
+    "actualizar-4": "\f11d",
+    "ortodoncia": "\f11e",
+    "letra-u": "\f11f",
+    "u": "\f120",
+    "atraccion": "\f121",
+    "herradura": "\f122",
+    "herradura-1": "\f123",
+    "herradura-2": "\f124",
+    "herradura-3": "\f125",
+    "herradura-4": "\f126",
+    "whatsapp": "\f127",
+    "logotipo-de-instagram": "\f128",
+    "instagram": "\f129",
+    "simbolo-de-la-aplicacion-de-facebook": "\f12a",
+    "facebook": "\f12b",
+    "facebook-1": "\f12c",
+    "marcador-de-posicion": "\f12d",
+    "marcador-de-posicion-1": "\f12e",
+);
+
+.flaticon-invisible:before {
+    content: map-get($flaticon-map, "invisible");
+}
+.flaticon-invisible-1:before {
+    content: map-get($flaticon-map, "invisible-1");
+}
+.flaticon-silla-dentista:before {
+    content: map-get($flaticon-map, "silla-dentista");
+}
+.flaticon-silla-de-dentista:before {
+    content: map-get($flaticon-map, "silla-de-dentista");
+}
+.flaticon-diente:before {
+    content: map-get($flaticon-map, "diente");
+}
+.flaticon-dentista:before {
+    content: map-get($flaticon-map, "dentista");
+}
+.flaticon-diente-1:before {
+    content: map-get($flaticon-map, "diente-1");
+}
+.flaticon-dental:before {
+    content: map-get($flaticon-map, "dental");
+}
+.flaticon-dentista-1:before {
+    content: map-get($flaticon-map, "dentista-1");
+}
+.flaticon-cepillo-de-dientes:before {
+    content: map-get($flaticon-map, "cepillo-de-dientes");
+}
+.flaticon-enjuague-bucal:before {
+    content: map-get($flaticon-map, "enjuague-bucal");
+}
+.flaticon-calendario:before {
+    content: map-get($flaticon-map, "calendario");
+}
+.flaticon-cheque:before {
+    content: map-get($flaticon-map, "cheque");
+}
+.flaticon-escanear:before {
+    content: map-get($flaticon-map, "escanear");
+}
+.flaticon-ojo:before {
+    content: map-get($flaticon-map, "ojo");
+}
+.flaticon-ojo-1:before {
+    content: map-get($flaticon-map, "ojo-1");
+}
+.flaticon-cuchillo:before {
+    content: map-get($flaticon-map, "cuchillo");
+}
+.flaticon-restaurante:before {
+    content: map-get($flaticon-map, "restaurante");
+}
+.flaticon-cheque-1:before {
+    content: map-get($flaticon-map, "cheque-1");
+}
+.flaticon-marca-de-verificacion-contorno-negro:before {
+    content: map-get($flaticon-map, "marca-de-verificacion-contorno-negro");
+}
+.flaticon-escaner:before {
+    content: map-get($flaticon-map, "escaner");
+}
+.flaticon-actualizar:before {
+    content: map-get($flaticon-map, "actualizar");
+}
+.flaticon-viajar:before {
+    content: map-get($flaticon-map, "viajar");
+}
+.flaticon-equipaje:before {
+    content: map-get($flaticon-map, "equipaje");
+}
+.flaticon-cama-solar:before {
+    content: map-get($flaticon-map, "cama-solar");
+}
+.flaticon-actualizar-1:before {
+    content: map-get($flaticon-map, "actualizar-1");
+}
+.flaticon-actualizar-2:before {
+    content: map-get($flaticon-map, "actualizar-2");
+}
+.flaticon-actualizar-3:before {
+    content: map-get($flaticon-map, "actualizar-3");
+}
+.flaticon-actualizar-4:before {
+    content: map-get($flaticon-map, "actualizar-4");
+}
+.flaticon-ortodoncia:before {
+    content: map-get($flaticon-map, "ortodoncia");
+}
+.flaticon-letra-u:before {
+    content: map-get($flaticon-map, "letra-u");
+}
+.flaticon-u:before {
+    content: map-get($flaticon-map, "u");
+}
+.flaticon-atraccion:before {
+    content: map-get($flaticon-map, "atraccion");
+}
+.flaticon-herradura:before {
+    content: map-get($flaticon-map, "herradura");
+}
+.flaticon-herradura-1:before {
+    content: map-get($flaticon-map, "herradura-1");
+}
+.flaticon-herradura-2:before {
+    content: map-get($flaticon-map, "herradura-2");
+}
+.flaticon-herradura-3:before {
+    content: map-get($flaticon-map, "herradura-3");
+}
+.flaticon-herradura-4:before {
+    content: map-get($flaticon-map, "herradura-4");
+}
+.flaticon-whatsapp:before {
+    content: map-get($flaticon-map, "whatsapp");
+}
+.flaticon-logotipo-de-instagram:before {
+    content: map-get($flaticon-map, "logotipo-de-instagram");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-simbolo-de-la-aplicacion-de-facebook:before {
+    content: map-get($flaticon-map, "simbolo-de-la-aplicacion-de-facebook");
+}
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-facebook-1:before {
+    content: map-get($flaticon-map, "facebook-1");
+}
+.flaticon-marcador-de-posicion:before {
+    content: map-get($flaticon-map, "marcador-de-posicion");
+}
+.flaticon-marcador-de-posicion-1:before {
+    content: map-get($flaticon-map, "marcador-de-posicion-1");
+}
