@@ -21,6 +21,9 @@ import { Braces } from './components/braces';
 import { Benefits } from './components/benefits';
 import { Treatment } from './components/treatment';
 import { FindUs } from './components/findUs';
+import { Footer } from './components/footer';
+import { Home } from './components/home';
+import { Booking } from './components/booking';
 
 
 function App() {
@@ -36,14 +39,20 @@ function App() {
       <BrowserRouter  basename={"/"}>
         <NavBar/>
 
-        <Test/>
+        {/* <Test/> */}
+        <div className='site-wrap'>
+          <Home/>
+          <Braces/>
+          <Treatment/>
+          <Benefits/>
+          <FindUs/>
+          <Booking/>
+          <Faq/>
+          <Footer/>
+          <ContactBubble/>
 
-        <Braces/>
-        <Treatment/>
-        <Benefits/>
-        <FindUs/>
-        <Faq/>
-        <ContactBubble/>
+        </div>
+
       </BrowserRouter>
     </div>
   );

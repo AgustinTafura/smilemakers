@@ -2,7 +2,8 @@ import "./index.scss"
 
 export const Braces = () => {
     return (
-        <div className="site-section site-block-braces">
+        
+        <div id='alineadores' className="site-section site-block-braces">
             <div className="container">
                 <div className="row">
 
@@ -16,7 +17,7 @@ export const Braces = () => {
                             <p className="text-black-opacity-5">Podés realizar ejercicio, hablar, besar y no vas a sentir que los llevas puestos.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6 order-1 order-lg-2 mb-5">
+                    <div className="col-lg-6 order-1 order-lg-2 mb-5 d-flex justify-content-center">
                         <img src={`/images/braces.jpg`} alt="smilemakers braces alineadores invisibles " className="img-fluid"/>
                     </div>
 
@@ -27,7 +28,7 @@ export const Braces = () => {
                         <div class="process p-3">
                         <span class="number">01</span>
                         <div>
-                            <i class="flaticon flaticon-dentist-chair display-4 mb-4 d-inline-block"></i>
+                            <i class="flaticon flaticon-silla-dentista display-4 mb-4 d-inline-block"></i>
                             <h3>Diagnóstico y Escaneo</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
                         </div>
@@ -38,7 +39,7 @@ export const Braces = () => {
                         <div class="process p-3">
                         <span class="number">02</span>
                         <div>
-                            <i class="flaticon flaticon-scan-1 display-4 mb-4 d-inline-block"></i>
+                            <i class="flaticon flaticon-escanear display-4 mb-4 d-inline-block"></i>
                             <h3>Diseño 3D</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
                         </div>
@@ -49,7 +50,7 @@ export const Braces = () => {
                         <div class="process p-3">
                         <span class="number">03</span>
                         <div>
-                            <i class="flaticon flaticon-scan-1 display-4 mb-4 d-inline-block"></i>
+                            <i class="flaticon flaticon-ortodoncia display-4 mb-4 d-inline-block" style={{background: "url(./images//images/braces.jpg)"}}></i>
                             <h3>Alineadores SM<sup style={{fontVariant: 'all-small-caps'}}>®</sup></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
                         </div>

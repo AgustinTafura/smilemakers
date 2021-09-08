@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon";
-    src: url("./flaticon.ttf?26848bca9ead4fe863168003f17ecba6") format("truetype"),
-url("./flaticon.woff?26848bca9ead4fe863168003f17ecba6") format("woff"),
-url("./flaticon.woff2?26848bca9ead4fe863168003f17ecba6") format("woff2"),
-url("./flaticon.eot?26848bca9ead4fe863168003f17ecba6#iefix") format("embedded-opentype"),
-url("./flaticon.svg?26848bca9ead4fe863168003f17ecba6#flaticon") format("svg");
+    src: url("./flaticon.ttf?14bec3f8c7595442fece73678a3e7d7f") format("truetype"),
+url("./flaticon.woff?14bec3f8c7595442fece73678a3e7d7f") format("woff"),
+url("./flaticon.woff2?14bec3f8c7595442fece73678a3e7d7f") format("woff2"),
+url("./flaticon.eot?14bec3f8c7595442fece73678a3e7d7f#iefix") format("embedded-opentype"),
+url("./flaticon.svg?14bec3f8c7595442fece73678a3e7d7f#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -104,4 +104,55 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 .flaticon-actualizar-4:before {
     content: "\f11d";
+}
+.flaticon-ortodoncia:before {
+    content: "\f11e";
+}
+.flaticon-letra-u:before {
+    content: "\f11f";
+}
+.flaticon-u:before {
+    content: "\f120";
+}
+.flaticon-atraccion:before {
+    content: "\f121";
+}
+.flaticon-herradura:before {
+    content: "\f122";
+}
+.flaticon-herradura-1:before {
+    content: "\f123";
+}
+.flaticon-herradura-2:before {
+    content: "\f124";
+}
+.flaticon-herradura-3:before {
+    content: "\f125";
+}
+.flaticon-herradura-4:before {
+    content: "\f126";
+}
+.flaticon-whatsapp:before {
+    content: "\f127";
+}
+.flaticon-logotipo-de-instagram:before {
+    content: "\f128";
+}
+.flaticon-instagram:before {
+    content: "\f129";
+}
+.flaticon-simbolo-de-la-aplicacion-de-facebook:before {
+    content: "\f12a";
+}
+.flaticon-facebook:before {
+    content: "\f12b";
+}
+.flaticon-facebook-1:before {
+    content: "\f12c";
+}
+.flaticon-marcador-de-posicion:before {
+    content: "\f12d";
+}
+.flaticon-marcador-de-posicion-1:before {
+    content: "\f12e";
 }

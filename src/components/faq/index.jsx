@@ -2,7 +2,7 @@ import "./index.scss"
 
 export const Faq = () => {
 return (
-<div className="site-section site-block-3">
+<div className="site-section site-block-3 pt-0">
     <div className="container">
         <div className="row justify-content-center">
             <div className="row mb-5 justify-content-center">

@@ -14,24 +14,13 @@ export const FindUs = () => {
                         <div className="col-lg-4">
                             <div className="site-block-testimony p-4 text-center">
                                 <div className="mb-3">
-                                    <img src={`/images/person_2.jpg`} alt="smilemakers " className="img-fluid"/>
+                                    <img src={`images/person_3.jpg`} alt="smilemakers " className="img-fluid"/>
                                 </div>
                                 <div>
-                                    <p>Dolores perferendis ipsam animi fuga, dolor pariatur aliquam esse. Modi maiores
-                                        minus velit iste enim sunt iusto dolore</p>
-                                    <p><strong className="fw-bold">Nathalie Oscar</strong></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="site-block-testimony p-4 text-center active">
-                                <div className="mb-3">
-                                    <img src={`images/person_1.jpg`} alt="smilemakers " className="img-fluid"/>
-                                </div>
-                                <div>
-                                    <p>Dolores perferendis ipsam animi fuga dolor pariatur aliquam esse. Modi maiores
-                                        minus velit iste enim sunt iusto dolore</p>
-                                    <p><strong className="fw-bold">Linda Uler</strong></p>
+                                    <div><strong className="fw-bold">DR. DIENTES</strong></div>
+                                    <div to='/pepe'><a href="" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
+                                    <button className='btn border-0 mb-3 '><a href="" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
+                                    {/* <button className='btn btn-light'> Reservar Turno Online</button> */}
                                 </div>
                             </div>
                         </div>
@@ -39,15 +28,31 @@ export const FindUs = () => {
                         <div className="col-lg-4">
                             <div className="site-block-testimony p-4 text-center">
                                 <div className="mb-3">
-                                    <img src={`images/person_3.jpg`} alt="smilemakers " className="img-fluid"/>
+                                    <img src={`images/logo3.jpg`} alt="smilemakers " className="img-fluid"/>
                                 </div>
                                 <div>
-                                    <p>Dolores perferendis ipsam animi fuga dolor pariatur aliquam esse. Modi maiores
-                                        minus velit iste enim sunt iusto dolore</p>
-                                    <p><strong className="fw-bold">Chris Coodard</strong></p>
+                                    <div><strong className="fw-bold">LBN ODONTOLOGÍA</strong></div>
+                                    <div to='/pepe'><a href="" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
+                                    <button className='btn border-0 mb-3 '><a href="" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
+                                    <button className='btn btn-light'> Reservar Turno Online</button>
                                 </div>
                             </div>
                         </div>
+
+                        <div className="col-lg-4">
+                            <div className="site-block-testimony p-4 text-center">
+                                <div className="mb-3">
+                                    <img src={`images/person_2.jpg`} alt="smilemakers " className="img-fluid"/>
+                                </div>
+                                <div>
+                                    <div><strong className="fw-bold">DR. ENCIAS</strong></div>
+                                    <div to='/pepe'><a href="" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
+                                    <button className='btn border-0 mb-3 '><a href="" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
+                                    {/* <button className='btn btn-light'> Reservar Turno Online</button> */}
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

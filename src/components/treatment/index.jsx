@@ -7,7 +7,7 @@ export const Treatment = () => {
             <div className="container text-center">
                 <span className="d-block h4 mb-3 fw-light text-white">
                     Programa de <strong className="fw-bold">Referidos</strong>.
-                    Obtené hasta <strong className="fw-bold">10% OFF </strong>
+                    Obtené hasta <strong className="fw-bold">10% OFF</strong> invitado amigos o familiares.
                 </span>
             </div>
         </div>
