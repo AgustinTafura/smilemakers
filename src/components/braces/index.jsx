@@ -18,7 +18,7 @@ export const Braces = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 order-1 order-lg-2 mb-5 d-flex justify-content-center">
-                        <img src={`/images/braces.jpg`} alt="smilemakers braces alineadores invisibles " className="img-fluid"/>
+                        <img src={`images/braces.jpg`} alt="smilemakers braces alineadores invisibles " className="img-fluid"/>
                     </div>
 
                 </div>
