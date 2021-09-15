@@ -14,10 +14,10 @@ export const FindUs = () => {
                         <div className="col-lg-4">
                             <div className="site-block-testimony p-4 text-center">
                                 <div className="mb-3">
-                                    <img src={`images/person_3.jpg`} alt="smilemakers " className="img-fluid"/>
+                                    <img src={`images/logo3.jpg`} alt="smilemakers " className="img-fluid"/>
                                 </div>
                                 <div>
-                                    <div><strong className="fw-bold">DR. DIENTES</strong></div>
+                                    <div><strong className="fw-bold">DR. A</strong></div>
                                     <div ><a href="/" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
                                     <button className='btn border-0 mb-3 '><a href="/" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
                                     {/* <button className='btn btn-light'> Reservar Turno Online</button> */}
@@ -42,10 +42,10 @@ export const FindUs = () => {
                         <div className="col-lg-4">
                             <div className="site-block-testimony p-4 text-center">
                                 <div className="mb-3">
-                                    <img src={`images/person_2.jpg`} alt="smilemakers " className="img-fluid"/>
+                                    <img src={`images/logo3.jpg`} alt="smilemakers " className="img-fluid"/>
                                 </div>
                                 <div>
-                                    <div><strong className="fw-bold">DR. ENCIAS</strong></div>
+                                    <div><strong className="fw-bold">DR. B</strong></div>
                                     <div ><a href="/" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
                                     <button className='btn border-0 mb-3 '><a href="/" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
                                     {/* <button className='btn btn-light'> Reservar Turno Online</button> */}
