@@ -87,7 +87,7 @@ export const Home = () => {
         <>
         <div className="site-mobile-menu">
                 <div className="site-mobile-menu-header">
-                    <img src={`images/logo.png`} alt="logo brand smilemakers"/>
+                    <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo brand smilemakers"/>
                     <div className="site-mobile-menu-close">
                         <span className="icon-close2 js-menu-toggle"></span>
                     </div>
@@ -96,7 +96,7 @@ export const Home = () => {
             </div>
 
 
-            <div className="site-blocks-cover" style={{backgroundImage: "url(images/di6.gif)"}} data-aos="fade"
+            <div className="site-blocks-cover" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/di6.gif)`}} data-aos="fade"
                 data-stellar-background-ratio="0.5">
                 <div className="container">
                     <div className="row align-items-center">

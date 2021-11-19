@@ -107,7 +107,7 @@ export const Test = () => {
 
             <div className="site-mobile-menu">
                 <div className="site-mobile-menu-header">
-                    <img src={`images/logo.png`} alt="logo brand smilemakers"/>
+                    <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo brand smilemakers"/>
                     <div className="site-mobile-menu-close">
                         <span className="icon-close2 js-menu-toggle"></span>
                     </div>
@@ -116,7 +116,7 @@ export const Test = () => {
             </div>
 
 
-            <div className="site-blocks-cover" style={{backgroundImage: "url(images/di6.gif)"}} data-aos="fade"
+            <div className="site-blocks-cover" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/di6.gif)`}} data-aos="fade"
                 data-stellar-background-ratio="0.5">
                 <div className="container">
                     <div className="row align-items-center">
@@ -173,7 +173,7 @@ export const Test = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 mb-5 mb-lg-0">
-                            <img src={`/images/img_1.jpg`} alt="smilemakers " className="img-fluid"/>
+                            <img src={`${process.env.PUBLIC_URL}/images/img_1.jpg`} alt="smilemakers " className="img-fluid"/>
                         </div>
                         <div className="col-lg-6">
                             <div className="row row-items">
@@ -314,7 +314,7 @@ export const Test = () => {
 
 
             <div className="site-block-half d-block d-lg-flex site-block-video">
-                <div className="image bg-image order-2" style={{backgroundImage: "url(images/hero_bg_1.jpg)"}}>
+                <div className="image bg-image order-2" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/hero_bg_1.jpg)`}}>
                     <a href="https://vimeo.com/channels/staffpicks/93951774" className="play-button popup-vimeo"><span
                             className="icon-play"></span></a>
                 </div>
@@ -342,7 +342,7 @@ export const Test = () => {
                         <div className="col-lg-4">
                             <div className="site-block-testimony p-4 text-center">
                                 <div className="mb-3">
-                                    <img src={`/images/person_2.jpg`} alt="smilemakers " className="img-fluid"/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/person_2.jpg`} alt="smilemakers " className="img-fluid"/>
                                 </div>
                                 <div>
                                     <p>Dolores perferendis ipsam animi fuga, dolor pariatur aliquam esse. Modi maiores
@@ -354,7 +354,7 @@ export const Test = () => {
                         <div className="col-lg-4">
                             <div className="site-block-testimony p-4 text-center active">
                                 <div className="mb-3">
-                                    <img src={`images/person_1.jpg`} alt="smilemakers " className="img-fluid"/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/person_1.jpg`} alt="smilemakers " className="img-fluid"/>
                                 </div>
                                 <div>
                                     <p>Dolores perferendis ipsam animi fuga dolor pariatur aliquam esse. Modi maiores
@@ -367,7 +367,7 @@ export const Test = () => {
                         <div className="col-lg-4">
                             <div className="site-block-testimony p-4 text-center">
                                 <div className="mb-3">
-                                    <img src={`images/person_3.jpg`} alt="smilemakers " className="img-fluid"/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/person_3.jpg`} alt="smilemakers " className="img-fluid"/>
                                 </div>
                                 <div>
                                     <p>Dolores perferendis ipsam animi fuga dolor pariatur aliquam esse. Modi maiores
@@ -424,7 +424,7 @@ export const Test = () => {
                                         <li className="mb-3">
                                             <Link to="/" className="d-flex">
                                                 <figure className="image me-4">
-                                                    <img src={`images/hero_bg_1.jpg`} alt="" className="img-fluid"/>
+                                                    <img src={`${process.env.PUBLIC_URL}/images/hero_bg_1.jpg`} alt="" className="img-fluid"/>
                                                 </figure>
                                                 <div className="text">
                                                     <span className="small text-uppercase date">Sep 16, 2018</span>
@@ -436,7 +436,7 @@ export const Test = () => {
                                         <li className="mb-3">
                                             <Link to="/" className="d-flex">
                                                 <figure className="image me-4">
-                                                    <img src={`images/hero_bg_1.jpg`} alt="" className="img-fluid"/>
+                                                    <img src={`${process.env.PUBLIC_URL}/images/hero_bg_1.jpg`} alt="" className="img-fluid"/>
                                                 </figure>
                                                 <div className="text">
                                                     <span className="small text-uppercase date">Sep 16, 2018</span>
@@ -448,7 +448,7 @@ export const Test = () => {
                                         <li className="mb-3">
                                             <Link to="/" className="d-flex">
                                                 <figure className="image me-4">
-                                                    <img src={`images/hero_bg_1.jpg`} alt="" className="img-fluid"/>
+                                                    <img src={`${process.env.PUBLIC_URL}/images/hero_bg_1.jpg`} alt="" className="img-fluid"/>
                                                 </figure>
                                                 <div className="text">
                                                     <span className="small text-uppercase date">Sep 16, 2018</span>

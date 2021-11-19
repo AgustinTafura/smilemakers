@@ -46,8 +46,8 @@ export const Benefits = () => {
             </div>
             <div className="row">
                 {
-                    benefits.map(benefit=>
-                        <div className="col-md-6 col-lg-4">
+                    benefits.map((benefit, index)=>
+                        <div key={index+benefit.title} className="col-md-6 col-lg-4">
                             <div className="site-block-feature-2 d-flex rounded mb-5">
                                 <div className="me-3">
                                     <i className={`flaticon ${benefit.icon} fw-light fs-2`}></i>

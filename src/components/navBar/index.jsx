@@ -21,7 +21,6 @@ export const NavBar = () => {
         var scrollYposition = window.scrollY
         navbar.style.backgroundColor = `rgb(255 255 255 / ${scrollYposition*1.5/700})`;
         navbar.style['boxShadow'] = `4px 0 20px -5px rgba(0, 0, 0, ${scrollYposition/700})`;
-        console.log(scrollYposition)
     }
 
     useEffect(() => {
@@ -40,7 +39,7 @@ export const NavBar = () => {
                     <div className="row align-items-center">
                         <div className="col-2">
                             <Link to="#index" className='site-logo'>
-                                <img src={`images/logo.png`} alt="logo brand smilemakers" />
+                                <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo brand smilemakers" />
                             </Link>
                         </div>
                         <div className="col-10">
