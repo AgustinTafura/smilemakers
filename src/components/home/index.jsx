@@ -85,7 +85,7 @@ export const Home = () => {
 
     return (
         <>
-        <div className="site-mobile-menu">
+            <div className="site-mobile-menu">
                 <div className="site-mobile-menu-header">
                     <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo brand smilemakers"/>
                     <div className="site-mobile-menu-close">

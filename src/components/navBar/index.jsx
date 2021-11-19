@@ -38,9 +38,9 @@ export const NavBar = () => {
                 <div className="container py-1">
                     <div className="row align-items-center">
                         <div className="col-2">
-                            <Link to="#index" className='site-logo'>
-                                <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo brand smilemakers" />
-                            </Link>
+                            <div className='site-logo'>
+                                <img onClick={()=>window.scrollTo({ top: 0, behavior: 'smooth' })} src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo brand smilemakers"/>
+                            </div>
                         </div>
                         <div className="col-10">
                             <nav className="site-navigation text-end" role="navigation">
