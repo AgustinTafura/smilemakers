@@ -50,8 +50,6 @@ export const Braces = () => {
                         <div className="process p-3">
                         <span className="number">03</span>
                         <div>
-                            
-<i className="flaticon-actualizar-2"></i>
                             <i className="flaticon flaticon-ortodoncia display-4 mb-4 d-inline-block" style={{display: 'inline'}}></i>
                             <h3>Alineadores SM<sup style={{fontVariant: 'all-small-caps'}}>®</sup></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex. Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
