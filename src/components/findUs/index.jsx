@@ -28,7 +28,7 @@ export const FindUs = () => {
                         <div className="col-lg-4">
                             <div className="site-block-testimony p-4 text-center">
                                 <div className="mb-3">
-                                    <img src={`${process.env.PUBLIC_URL}images/logo3.jpg`} alt="smilemakers " className="img-fluid"/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/logo3.jpg`} alt="smilemakers " className="img-fluid"/>
                                 </div>
                                 <div>
                                     <div><strong className="fw-bold">LBN ODONTOLOGÍA</strong></div>
@@ -42,7 +42,7 @@ export const FindUs = () => {
                         <div className="col-lg-4">
                             <div className="site-block-testimony p-4 text-center">
                                 <div className="mb-3">
-                                    <img src={`${process.env.PUBLIC_URL}images/logo3.jpg`} alt="smilemakers " className="img-fluid"/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/logo3.jpg`} alt="smilemakers " className="img-fluid"/>
                                 </div>
                                 <div>
                                     <div><strong className="fw-bold">DR. B</strong></div>
