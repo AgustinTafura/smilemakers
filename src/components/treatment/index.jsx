@@ -1,6 +1,24 @@
+import { useEffect } from 'react';
+import { jarallax, jarallaxVideo } from 'jarallax';
 import './index.scss'
 
 export const Treatment = () => {
+
+
+    useEffect(() => {
+        
+        const videoPath = `mp4:${process.env.PUBLIC_URL}/video/colocacion.mp4`;
+
+        jarallaxVideo();
+
+        jarallax(document.querySelectorAll('.jarallax'), {
+            speed: 0.2,
+            videoSrc: videoPath,
+            type: "opacity",
+            videoEndTime: 16.5,
+        });
+    }, [])
+
     return (
         <>
         <div className="promo py-5">
@@ -15,6 +33,7 @@ export const Treatment = () => {
 
         <div className="site-block-half d-block d-lg-flex site-block-video">
                 <div className="image bg-image order-2 bg-secondary">
+                    <div className="jarallax" style={{height: '100%', width: '100%'}}/>
                 </div>
                 <div className="text order-1">
                     <h2 className="site-heading text-black mb-5">Tratamiento <strong> ortodoncia invisible </strong></h2>

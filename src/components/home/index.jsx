@@ -109,7 +109,7 @@ export const Home = () => {
                 </div>
             </div>
 
-            <div className="site-block-1">
+            {/* <div className="site-block-1">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4">
@@ -147,7 +147,7 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
