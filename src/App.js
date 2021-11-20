@@ -8,6 +8,7 @@ import './App.scss';
 import 'bootstrap/dist/js/bootstrap.js'
 import "magnific-popup/dist/jquery.magnific-popup.js"
 
+
 //modules
 import AOS from 'aos';
 
@@ -24,6 +25,7 @@ import { FindUs } from './components/findUs';
 import { Footer } from './components/footer';
 import { Home } from './components/home';
 import { Booking } from './components/booking';
+import { Parallax } from './components/parallax';
 
 
 function App() {
@@ -47,6 +49,7 @@ function App() {
           <Benefits/>
           <FindUs/>
           <Booking/>
+          <Parallax/>
           <Faq/>
           <Footer/>
           <ContactBubble/>
