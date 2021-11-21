@@ -6,8 +6,8 @@ import "./index.scss"
 export const Parallax = () => {
     
     useEffect(() => {
-        
-        const videoPath = `mp4:${process.env.PUBLIC_URL}/video/escaneo.mp4`;
+
+        const videoPath = `mp4:${process.env.PUBLIC_URL}/video/colocacion.mp4`;
 
         jarallaxVideo();
 

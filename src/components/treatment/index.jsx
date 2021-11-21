@@ -7,7 +7,7 @@ export const Treatment = () => {
 
     useEffect(() => {
         
-        const videoPath = `mp4:${process.env.PUBLIC_URL}/video/colocacion.mp4`;
+        const videoPath = `mp4:${process.env.PUBLIC_URL}/video/escaneo.mp4`;
 
         jarallaxVideo();
 
@@ -16,7 +16,11 @@ export const Treatment = () => {
             videoSrc: videoPath,
             type: "opacity",
             videoEndTime: 16.5,
+            onScroll: function(calculations) {
+                console.log(calculations);
+            }
         });
+
     }, [])
 
     return (
@@ -32,8 +36,9 @@ export const Treatment = () => {
 
 
         <div className="site-block-half d-block d-lg-flex site-block-video">
-                <div className="image bg-image order-2 bg-secondary">
-                    <div className="jarallax" style={{height: '100%', width: '100%'}}/>
+                <div className="image bg-image order-2 bg-secondary" style={{position:"relative"}}>
+                        <div className="nk-awb-overlay" style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "1000",width: "100%",position: "absolute"}}/>
+                        <div className="jarallax" style={{height: '100%', width: '100%'}}></div>
                 </div>
                 <div className="text order-1">
                     <h2 className="site-heading text-black mb-5">Tratamiento <strong> ortodoncia invisible </strong></h2>
