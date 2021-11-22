@@ -35,21 +35,21 @@ export const Treatment = () => {
         </div>
 
 
-        <div className="site-block-half d-block d-lg-flex site-block-video">
-                <div className="image bg-image order-2 bg-secondary" style={{position:"relative"}}>
-                        <div className="nk-awb-overlay" style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "1000",width: "100%",position: "absolute"}}/>
-                        <div className="jarallax" style={{height: '100%', width: '100%'}}></div>
-                </div>
-                <div className="text order-1">
-                    <h2 className="site-heading text-black mb-5">Tratamiento <strong> ortodoncia invisible </strong></h2>
-                    <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cum vel, eius nulla
-                        inventore aperiam excepturi molestias incidunt, culpa alias repudiandae, a nobis libero vitae
-                        repellendus temporibus vero sit natus.</p>
-                    <p>Dolores perferendis ipsam animi fuga, dolor pariatur aliquam esse. Modi maiores minus velit iste
-                        enim sunt iusto, dolore totam consequuntur incidunt illo voluptates vero quaerat excepturi.
-                        Iusto dolor, cum et.</p>
-                </div>
+        <div id="tratamiento" className="site-block-half d-block d-lg-flex site-block-video">
+            <div className="image bg-image order-2 bg-secondary" style={{position:"relative"}}>
+                    <div className="nk-awb-overlay" style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "10",width: "100%",position: "absolute"}}/>
+                    <div className="jarallax" style={{height: '100%', width: '100%'}}></div>
             </div>
+            <div className="text order-1">
+                <h2 className="site-heading text-black mb-5">Tratamiento <strong> ortodoncia invisible </strong></h2>
+                <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cum vel, eius nulla
+                    inventore aperiam excepturi molestias incidunt, culpa alias repudiandae, a nobis libero vitae
+                    repellendus temporibus vero sit natus.</p>
+                <p>Dolores perferendis ipsam animi fuga, dolor pariatur aliquam esse. Modi maiores minus velit iste
+                    enim sunt iusto, dolore totam consequuntur incidunt illo voluptates vero quaerat excepturi.
+                    Iusto dolor, cum et.</p>
+            </div>
+        </div>
         </>
         )
 }
