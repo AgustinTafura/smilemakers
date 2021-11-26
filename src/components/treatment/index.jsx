@@ -16,9 +16,6 @@ export const Treatment = () => {
             videoSrc: videoPath,
             type: "opacity",
             videoEndTime: 16.5,
-            onScroll: function(calculations) {
-                console.log(calculations);
-            }
         });
 
     }, [])

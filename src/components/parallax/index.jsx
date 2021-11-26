@@ -21,8 +21,11 @@ export const Parallax = () => {
     
     
     return (
-        <div style={{position:"relative"}}>
-            <div className="nk-awb-overlay" style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "1000",width: "100%",position: "absolute"}}/>
+        <div id='parallax-b' style={{position:"relative"}}>
+            
+            <h1>QUEREMOS <strong>VERTE SONREIR</strong></h1>
+            <div className="nk-awb-overlay"
+                style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "1000",width: "100%",position: "absolute"}} />
             <div className="jarallax-b" style={{height: '60vh', width: '100%'}}></div>
         </div>
     )
