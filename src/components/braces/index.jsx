@@ -1,13 +1,30 @@
+import { jarallax, jarallaxVideo } from 'jarallax';
+import { useEffect } from 'react';
 import "./index.scss"
 
 export const Braces = () => {
+
+    useEffect(() => {
+
+        const videoPath = `mp4:${process.env.PUBLIC_URL}/video/colocacion.mp4`;
+
+        jarallaxVideo();
+
+        jarallax(document.querySelectorAll('.jarallax-braces'), {
+            speed: 0.2,
+            videoSrc: videoPath,
+            type: "opacity",
+            videoEndTime: 16.5,
+        });
+    }, [])
+
     return (
         
         <div id='alineadores' className="site-section site-block-braces">
             <div className="container">
-                <div className="row">
+                <div className="row pb-3">
 
-                    <div className="col-lg-6 mb-5 order-2 order-lg-1">
+                    <div className="col-lg-6 mb-5 order-1 order-lg-1">
                         <div className="ps-lg-5 ms-lg-5">
                             <h2 className="site-heading text-black">
                                 Alineadores <strong>Invisibles</strong> SM<sup style={{fontVariant: 'all-small-caps'}}>®</sup>
@@ -17,13 +34,17 @@ export const Braces = () => {
                             <p className="text-black-opacity-5">Podés realizar ejercicio, hablar, besar y no vas a sentir que los llevas puestos.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6 order-1 order-lg-2 mb-5 d-flex justify-content-center">
-                        <img src={`${process.env.PUBLIC_URL}/images/braces.jpg`} alt="smilemakers braces alineadores invisibles " className="img-fluid"/>
+                    <div className="col-lg-6 order-2 order-lg-2 mb-5 d-flex justify-content-center">
+                    <div className="nk-awb-overlay"
+                style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "1000",width: "0%"}} />
+                    <div className="jarallax-braces" style={{height: '100%', width: '70%', boxShadow: "0 10px 50px -5px #00000066"}}></div>
+                        {/* <img src={`${process.env.PUBLIC_URL}/images/braces1.jpg`} alt="smilemakers braces alineadores invisibles " className="img-fluid"/> */}
                     </div>
 
                 </div>
 
-                <div className="row">
+                <div className="row pt-5">
+                <h3 class="site-heading text-black mb-5" style={{fontSize:'1.8rem'}}>Obtenelos en <strong>3 pasos</strong></h3>
                     <div className="col-lg-4" data-aos="fade-up" data-aos-delay="">
                         <div className="process p-3">
                         <span className="number">01</span>
