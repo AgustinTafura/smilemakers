@@ -37,7 +37,7 @@ export const Benefits = () => {
     ]
 
     return (
-        <div className="site-section site-block-benefits">
+        <div className="site-section site-block-benefits" id='beneficios'>
         <div className="container">
             <div className="row mb-5 justify-content-center">
                 <div className="col-md-6 text-center">

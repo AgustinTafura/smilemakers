@@ -3,7 +3,7 @@ import './index.scss'
 export const FindUs = () => {
     return (
         <>
-            <div className="site-section">
+            <div className="site-section" id='encontranos'>
                 <div className="container">
                     <div className="row mb-5 justify-content-center">
                         <div className="col-md-6 text-center">
