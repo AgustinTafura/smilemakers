@@ -2,7 +2,6 @@ import { jarallax, jarallaxVideo } from 'jarallax';
 import { useEffect } from 'react';
 import "./index.scss"
 
-
 export const Parallax = () => {
     
     useEffect(() => {
@@ -16,6 +15,7 @@ export const Parallax = () => {
             videoSrc: videoPath,
             type: "opacity",
             videoEndTime: 16.5,
+            videoLazyLoading: false,
         });
     }, [])
     
@@ -25,7 +25,7 @@ export const Parallax = () => {
             
             <h1>QUEREMOS <strong>VERTE SONREIR</strong></h1>
             <div className="nk-awb-overlay"
-                style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "1000",width: "100%",position: "absolute"}} />
+                style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "10",width: "100%",position: "absolute"}} />
             <div className="jarallax-b" style={{height: '60vh', width: '100%'}}></div>
         </div>
     )
