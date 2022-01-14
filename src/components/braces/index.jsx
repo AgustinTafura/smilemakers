@@ -16,6 +16,7 @@ export const Braces = () => {
             type: "opacity",
             videoEndTime: 16.5,
         });
+
     }, [])
 
     return (
@@ -44,7 +45,7 @@ export const Braces = () => {
 
                 <div className="row pt-5">
                 <h3 className="site-heading text-black mb-5" style={{fontSize:'1.8rem'}}>Obtenelos en <strong>3 pasos</strong></h3>
-                    <div className="col-lg-4" data-aos="fade-up" data-aos-delay="">
+                    <div className="col-lg-4" data-aos="fade-up" data-aos-delay="" data-aos-anchor-placement="top-bottom">
                         <div className="process p-3">
                         <span className="number">01</span>
                         <div>

@@ -26,6 +26,7 @@ import { Footer } from './components/footer';
 import { Home } from './components/home';
 import { Booking } from './components/booking';
 import { Parallax } from './components/parallax';
+import Test from './components/test';
 
 
 function App() {
@@ -40,8 +41,6 @@ function App() {
     <div className="App">
       <BrowserRouter  basename={"/"}>
         <NavBar/>
-
-        {/* <Test/> */}
         <div className='site-wrap'>
           <Home/>
           <Braces/>
@@ -51,11 +50,10 @@ function App() {
           <Booking/>
           <Parallax/>
           <Faq/>
+          <Test/>
           <Footer/>
           <ContactBubble/>
-
         </div>
-
       </BrowserRouter>
     </div>
   );
