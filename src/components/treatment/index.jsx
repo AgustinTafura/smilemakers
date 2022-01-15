@@ -36,7 +36,7 @@ export const Treatment = () => {
             <div id="tratamiento" className="site-block-half d-block d-lg-flex site-block-video">
                 <div className="image bg-image order-2 bg-secondary" style={{position:"relative"}}>
                     <div className="nk-awb-overlay"
-                        style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "10",width: "100%",position: "absolute"}} />
+                        style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",width: "100%",position: "absolute"}} />
                     <div className="jarallax"
                         style={{height: '100%', width: '100%', backgroundImage: `url(${process.env.PUBLIC_URL}/images/test2.jpg)`}}>
                     </div>
