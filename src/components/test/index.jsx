@@ -17,7 +17,6 @@ const Test = () => {
     const [shouldUseImage, setShouldUseImage] = useState(false);
     useEffect(() => {
         // check if user agent is safari and we have the ref to the container <div />
-        alert(videoParentRef.current.children[0].offsetWidth)
         if (isSafari() && videoParentRef.current) {
             // obtain reference to the video element
             const player = videoParentRef.current.children[0];
@@ -30,6 +29,7 @@ const Test = () => {
                 player.muted = true;
                 player.setAttribute("muted", ""); // leave no stones unturned :)
                 player.autoplay = true;
+                player.width = `100%`;
 
                 // Let's wait for an event loop tick and be async.
                 setTimeout(() => {
@@ -53,11 +53,9 @@ const Test = () => {
 
 if (promise !== undefined) {
     promise.catch(error => {
-        console.log('error', error)
         // Auto-play was prevented
         // Show a UI element to let the user manually start playback
     }).then(() => {
-        console.log('paso')
         // Auto-play started
     });
 }
@@ -68,17 +66,13 @@ if (promise !== undefined) {
             mainVideo
         }
         alt = "Muted Video" / >
-    ) : ( <div ref = {
-            videoParentRef
-        }
-        dangerouslySetInnerHTML = {{
+    ) : ( <div ref = { videoParentRef } dangerouslySetInnerHTML = {{
             __html: `
                 <video loop muted autoplay playsinline preload="metadata" id='lele'>
                     <source src="${mainVideo}" type="video/mp4" />
                 </video>
             `
-        }}
-        />
+            }}/>
     );
 }
 

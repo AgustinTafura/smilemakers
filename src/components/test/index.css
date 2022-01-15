@@ -1,13 +1,15 @@
 
 #lele {
-    width: 13px;
+    width: 100vh;
     height: 40vh;
-    /* object-fit: cover; */
+    object-fit: cover;
     /* position: fixed; */
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     z-index: -1;
-    max-width: 50%;
+    /* width: 40% !important;
+    height: 40% !important;
+    max-height: 56.25vw !important; */
   }
