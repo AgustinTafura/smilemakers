@@ -1,8 +1,18 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import $ from 'jquery'
 export const Home = () => {
 
+    const [windowWidth, setWindowWidth] = useState()
+    const imageSmall = `${process.env.PUBLIC_URL}/images/homeSmall.jpg`;
+    const imageBig = `${process.env.PUBLIC_URL}/images/homeBig.jpg`;
     useEffect(() => {
+
+        setWindowWidth(window.innerWidth)
+
+        window.addEventListener('resize', () => {
+            setWindowWidth(window.innerWidth)
+          })
+
         var siteMenuClone = function () {
 
             $('.js-clone-nav').each(function () {
@@ -28,9 +38,7 @@ export const Home = () => {
                         'class': 'collapse',
                         'id': 'collapseItem' + counter,
                     });
-   
                     counter++;
-   
                 });
    
             }, 1000);
@@ -96,7 +104,7 @@ export const Home = () => {
             </div>
 
 
-            <div className="site-blocks-cover" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/di6.gif)`}} data-aos="fade"
+            <div className="site-blocks-cover" style={{backgroundImage: `url(${windowWidth < 576 ? imageSmall : imageBig })`}} data-aos="fade"
                 data-stellar-background-ratio="0.5">
                 <div className="container">
                     <div className="row align-items-center">

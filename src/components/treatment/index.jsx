@@ -5,10 +5,9 @@ import './index.scss'
 export const Treatment = () => {
 
 
-    useEffect(() => {
-        
+    const imgPath = `${process.env.PUBLIC_URL}/images/colocacion.jpg`;
+    useEffect(() => {        
         const videoPath = `mp4:${process.env.PUBLIC_URL}/video/escaneo.mp4`;
-
         jarallaxVideo();
 
         jarallax(document.querySelectorAll('.jarallax'), {
@@ -18,7 +17,6 @@ export const Treatment = () => {
             videoEndTime: 16.5,
             disableVideo: /iPad|iPhone|iPod/,
         });
-
     }, [])
 
     return (
@@ -36,9 +34,9 @@ export const Treatment = () => {
             <div id="tratamiento" className="site-block-half d-block d-lg-flex site-block-video">
                 <div className="image bg-image order-2 bg-secondary" style={{position:"relative"}}>
                     <div className="nk-awb-overlay"
-                        style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",width: "100%",position: "absolute"}} />
+                        style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%", zIndex: '10', width: "100%",position: "absolute"}} />
                     <div className="jarallax"
-                        style={{height: '100%', width: '100%', backgroundImage: `url(${process.env.PUBLIC_URL}/images/test2.jpg)`}}>
+                        style={{height: '100%', width: '100%', backgroundImage: `url(${imgPath}`}}>
                     </div>
                 </div>
                 <div className="text order-1">

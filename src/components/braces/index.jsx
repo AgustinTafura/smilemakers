@@ -6,10 +6,9 @@ export const Braces = () => {
 
     const [windowWidth, setWindowWidth] = useState()
 
+    const imgPath = `${process.env.PUBLIC_URL}/images/bracesSmiling.jpg`;
     useEffect(() => {
-
         const videoPath = `mp4:${process.env.PUBLIC_URL}/video/presentacion.mp4`;
-
         jarallaxVideo();
 
         jarallax(document.querySelectorAll('.jarallax-braces'), {
@@ -25,8 +24,6 @@ export const Braces = () => {
         window.addEventListener('resize', () => {
             setWindowWidth(window.innerWidth)
           })
-      
-
     }, [])
 
     return (
@@ -56,7 +53,7 @@ export const Braces = () => {
                             style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "100",width: "0%"}} />
                         <div className="jarallax-braces"
                             style={{height: `${windowWidth < 992? '100%': '120%'}`, width: `${windowWidth < 992? '100%': '70%'}`, 
-                            boxShadow: "0 10px 50px -5px #00000066", backgroundImage: `url(${process.env.PUBLIC_URL}/images/test3.jpg)`}} />
+                            boxShadow: "0 10px 50px -5px #00000066", backgroundImage: `url(${imgPath})`}} />
                     </div>
 
                 </div>
