@@ -111,7 +111,7 @@ export const Home = () => {
                         <div className="col-md-6">
                             <span className="sub-text fw-bolder">ALINEADORES INVISIBLES</span>
                             <h1>QUEREMOS <strong>VERTE SONREIR</strong></h1>
-                        <button className="btn btn-outline-light">Quiero mis SM®</button>
+                        <button className="btn btn-outline-light my-3">Quiero mis SM®</button>
                         </div>
                     </div>
                 </div>

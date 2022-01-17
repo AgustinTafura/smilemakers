@@ -25,15 +25,33 @@ import { Footer } from './components/footer';
 import { Home } from './components/home';
 import { Booking } from './components/booking';
 import { Parallax } from './components/parallax';
-
+import { useEffect, useState} from 'react'
+import { Spinner } from './components/spinner';
 
 function App() {
+  
+  const [loading, setLoading] = useState(true)
+  
+  
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: 'slide',
+      once: true
+    });
+  
+    setTimeout(() => {
+      setLoading(false)
+    }, 2100);
+  }, [])
 
-  AOS.init({
-    duration: 800,
-    easing: 'slide',
-    once: true
-  });
+  if (loading){
+    return (
+      <Spinner/>
+    )
+  }
+
+  
 
   return (
     <div className="App">
