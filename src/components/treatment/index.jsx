@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { jarallax, jarallaxVideo } from 'jarallax';
 import './index.scss'
+import { Link } from 'react-router-dom';
 
 export const Treatment = () => {
 
@@ -42,12 +43,12 @@ export const Treatment = () => {
                 <div className="text order-1">
                     <h2 className="site-heading text-black mb-5">Tratamiento <strong> ortodoncia invisible </strong>
                     </h2>
-                    <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id cum vel, eius nulla
-                        inventore aperiam excepturi molestias incidunt, culpa alias repudiandae, a nobis libero vitae
-                        repellendus temporibus vero sit natus.</p>
-                    <p>Dolores perferendis ipsam animi fuga, dolor pariatur aliquam esse. Modi maiores minus velit iste
-                        enim sunt iusto, dolore totam consequuntur incidunt illo voluptates vero quaerat excepturi.
-                        Iusto dolor, cum et.</p>
+                    <p className="lead  text-black mb-5">El tratamiendo de Ortodoncia con Alineadores Invisibles SMILE MAKERS<span style={{fontSize: '0.7rem', verticalAlign: 'text-top'}}>®</span> puede durar entre 9 a 18 meses, aunque podrás notar resultados visibles a partir de los 3 meses de uso.</p>
+                    <p>Luego del diseño de tu sonrisa, se generarán alineadores que serán intercambiados cada 15 o 20 días, según indicación del ortodoncista y dependiendo del avance cada tratamiento.</p>
+                    <p>La cantidad de placas va a definir la duración del tratamiento y dependiendo del grado de complejidad puede hacerse en una o dos etapas.</p>
+                    <Link to="#faq" >
+                        <p className='small mb-5' style={{color:'var(--secondary)'}}> Consultá nuestras preguntas frecuentes </p>
+                    </Link>
                 </div>
             </div>
         </>

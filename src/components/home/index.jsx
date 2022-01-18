@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 import $ from 'jquery'
 export const Home = () => {
 
@@ -111,7 +112,9 @@ export const Home = () => {
                         <div className="col-md-6">
                             <span className="sub-text fw-bolder">ALINEADORES INVISIBLES</span>
                             <h1>QUEREMOS <strong>VERTE SONREIR</strong></h1>
-                        <button className="btn btn-outline-light my-3">Quiero mis SM®</button>
+                        <Link to='#alineadores'>
+                            <button className="btn btn-outline-light my-3">Quiero mis SM®</button>
+                        </Link>
                         </div>
                     </div>
                 </div>

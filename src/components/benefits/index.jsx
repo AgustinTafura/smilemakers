@@ -6,32 +6,32 @@ export const Benefits = () => {
         {
             title: 'eficacia',
             icon: 'flaticon-cheque',
-            info: 'OK.'
+            info: 'Hoy en día el 90 % de los problemas de alineacion dentaria pueden ser resueltos mediante ortodoncia invisible.'
         },
         {
             title: 'estética',
             icon: 'flaticon-ojo-1',
-            info: 'Sunt illum fugit doloremque eaque omnis dolor sint fuga eligendi quis magnam Laboriosam facilis.'
+            info: 'Son totalmente imperceptibles, nadie notará que los llevas puestos.'
         },
         {
-            title: 'removibles',
+            title: 'comodidad',
             icon: 'flaticon-actualizar-2',
-            info: 'Flexibilidad comer, deporte.'
+            info: 'Al ajustarse perfectamente a tus dientes permiten realizar tus actividades diarias sin complicaciones. Solo te los quitarás para comer o cepillar tus dientes.'
         },
         {
             title: 'higiene',
             icon: 'flaticon-cepillo-de-dientes',
-            info: 'Sunt illum fugit doloremque eaque omnis dolor sint fuga eligendi quis magnam Laboriosam facilis.'
-        },
-        {
-            title: 'rapidez',
-            icon: 'flaticon-calendario',
-            info: 'Sunt illum fugit doloremque eaque omnis dolor sint fuga eligendi quis magnam Laboriosam facilis.'
+            info: 'Al ser posible extraer facilmente los alineadores permite realizar una higiene bucodental más precisa.'
         },
         {
             title: 'flexibilidad',
             icon: 'flaticon-equipaje',
-            info: 'Viajar vacaciones.'
+            info: 'No es necesario que el cambio se realice siempre en consultorio. Dependiendo del caso, podrás realizar el cambio de las placas por tu cuenta en la fecha pactada con el ortodoncista.'
+        },
+        {
+            title: 'rapidez',
+            icon: 'flaticon-calendario',
+            info: 'Reduce los tiempos respecto al tratamiento de ortodoncia tradicional.'
         },
 
     ]

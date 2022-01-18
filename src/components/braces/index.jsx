@@ -39,8 +39,8 @@ export const Braces = () => {
                                     style={{fontVariant: 'all-small-caps'}}>®</sup>
                             </h2>
                             <p className="lead text-black">Los alineadores invisibles <b>SMILE MAKERS<span
-                                        style={{fontSize:'0.7rem', verticalAlign: 'text-top'}}>®</span></b> son férulas
-                                plásticas <strong>transparentes</strong> que funcionan alineando progresivamente tus
+                                        style={{fontSize:'0.7rem', verticalAlign: 'text-top'}}>®</span></b> son placas 
+                                        <strong> transparentes</strong> que funcionan alineando progresivamente tus
                                 dientes para ayudarte a lucir una sonrisa perfecta.</p>
                             <p className="text-black-opacity-5">Son <strong>removibles</strong>, podés usarlas todo el
                                 dia excepto para comer y cepillar tus dientes.</p>
@@ -48,12 +48,12 @@ export const Braces = () => {
                                 sentir que los llevas puestos.</p>
                         </div>
                     </div>
-                    <div className="col-lg-6 order-2 order-lg-2 mb-5 d-flex justify-content-center" style={{height: `${windowWidth  < 992? '60vh': ''}`}}>
+                    <div className="col-lg-6 order-2 order-lg-2 mb-5 d-flex justify-content-center" style={{height: `${windowWidth  < 992? '60vh': ''}`,  borderRadius: '0.25rem'}}>
                         <div className="nk-awb-overlay"
-                            style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "100",width: "0%"}} />
+                            style={{backgroundColor: "rgba(0, 0, 0, 0.2)",height: "100%",zIndex: "100",width: "0%",  borderRadius: '0.25rem'}} />
                         <div className="jarallax-braces"
                             style={{height: `${windowWidth < 992? '100%': '120%'}`, width: `${windowWidth < 992? '100%': '70%'}`, 
-                            boxShadow: "0 10px 50px -5px #00000066", backgroundImage: `url(${imgPath})`}} />
+                            boxShadow: "0 10px 50px -5px #00000066", backgroundImage: `url(${imgPath})` , borderRadius: '0.25rem'}} />
                     </div>
 
                 </div>
@@ -68,11 +68,14 @@ export const Braces = () => {
                             <div>
                                 <i className="flaticon flaticon-silla-dentista display-4 mb-4 d-inline-block"></i>
                                 <h3>Diagnóstico y Escaneo</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex.
-                                    Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam
-                                    temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+                                <p>
+                                    En la primera consulta realizaremos los controles iniciales y te solicitaremos los estudios pertinentes
+                                    para realizar un diagnóstico preciso del caso, lo que permitirá determinar la complejidad y el valor final del tratamiento.
+                                </p>
+                                <p>
+                                    Luego realizaremos un escaneo intraoral para obtener un modelo digital 3D de tu boca.
+                                </p>
                             </div>
-
                         </div>
                     </div>
                     <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
@@ -81,9 +84,13 @@ export const Braces = () => {
                             <div>
                                 <i className="flaticon flaticon-escanear display-4 mb-4 d-inline-block"></i>
                                 <h3>Diseño 3D</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex.
-                                    Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam
-                                    temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+                                <p>
+                                    A partir del modelo digital obtenido diseñaremos tu sonrisa mediante un software de precision, 
+                                    donde replicaremos los diferentes estadíos en los que va a evolucionar tu boca a medida que cambies los alineadores.
+                                </p>
+                                <p>
+                                    A través de impresoras 3D, obtendremos las piezas que se utilizaran para moldear cada alineador. 
+                                </p>
                             </div>
 
                         </div>
@@ -95,9 +102,15 @@ export const Braces = () => {
                                 <i className="flaticon flaticon-ortodoncia display-4 mb-4 d-inline-block"
                                     style={{display: 'inline'}}></i>
                                 <h3>Alineadores SM<sup style={{fontVariant: 'all-small-caps'}}>®</sup></h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem possimus distinctio ex.
-                                    Natus totam voluptatibus animi aspernatur ducimus quas obcaecati mollitia quibusdam
-                                    temporibus culpa dolore molestias blanditiis consequuntur sunt nisi.</p>
+                                <p>
+                                    Finalmente te entregaremos el <strong> Kit Inicial </strong>de alineadores 
+                                    SM<sup style={{fontVariant: 'all-small-caps'}}>®</sup> y 
+                                    programaremos el calendario con
+                                    futuras citas para los sucesivos cambios de las placas.
+                                </p>
+                                <p>
+                                    ¡ Queremos verte sonreir y vamos a hacer todo lo posible para lograrlo !
+                                </p>
                             </div>
 
                         </div>

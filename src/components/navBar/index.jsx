@@ -53,7 +53,7 @@ export const NavBar = () => {
                                         <li><Link to="#alineadores">Alineadores</Link></li>
                                         <li><Link to="#tratamiento">Tratamiento</Link></li>
                                         <li> <Link to="#beneficios">Beneficios</Link></li>
-                                        <li><Link to="#encontranos">Encontranos</Link></li>
+                                        <li><Link to="#encontranos">Solicitar Turno</Link></li>
                                         <li><Link to="#odontologo">Soy Odontologo</Link></li>
                                     </ul>
                                 </div>

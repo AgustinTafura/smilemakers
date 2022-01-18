@@ -18,8 +18,8 @@ export const FindUs = () => {
                                 </div>
                                 <div>
                                     <div><strong className="fw-bold">DR. A</strong></div>
-                                    <div ><a href="/" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
-                                    <button className='btn border-0 my-3 btn-outline-light'><a href="/" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
+                                    <div ><a href="/" target="_blank" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
+                                    <button className='btn border-0 my-3 btn-outline-light'><a href="/" target="_blank" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
                                     {/* <button className='btn btn-light'> Reservar Turno Online</button> */}
                                 </div>
                             </div>
@@ -32,8 +32,8 @@ export const FindUs = () => {
                                 </div>
                                 <div>
                                     <div><strong className="fw-bold">LBN ODONTOLOGÍA</strong></div>
-                                    <div ><a href="/" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
-                                    <button className='btn border-0 my-3 btn-outline-light'><a href="/" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
+                                    <div ><a href="/" target="_blank" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
+                                    <button className='btn border-0 my-3 btn-outline-light'><a href="/" target="_blank" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
                                     <button className='btn btn-light'> Reservar Turno Online</button>
                                 </div>
                             </div>
@@ -46,8 +46,8 @@ export const FindUs = () => {
                                 </div>
                                 <div>
                                     <div><strong className="fw-bold">DR. B</strong></div>
-                                    <div ><a href="/" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
-                                    <button className='btn border-0 my-3 btn-outline-light'><a href="/" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
+                                    <div ><a href="/" target="_blank" className='link-dark'> <i className='flaticon flaticon-marcador-de-posicion-1'></i> Av. Corrientes 4924, Piso 6, CABA.</a></div>
+                                    <button className='btn border-0 my-3 btn-outline-light'><a href="/" target="_blank" className='link-dark'> SOLICITAR TURNO <i className='flaticon-whatsapp'></i></a></button>
                                     {/* <button className='btn btn-light'> Reservar Turno Online</button> */}
                                 </div>
                             </div>

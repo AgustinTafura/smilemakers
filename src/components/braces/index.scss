@@ -1,5 +1,11 @@
 .site-block-braces {
     // background-color: #f5f5f5;
+
+    .jarallax-braces {
+        >div {
+            border-radius: 0.25rem;
+        }
+    }
 }
 
 .process,
