@@ -47,7 +47,7 @@ export const Treatment = () => {
                     <p>Luego del diseño de tu sonrisa, se generarán alineadores que serán intercambiados cada 15 o 20 días, según indicación del ortodoncista y dependiendo del avance cada tratamiento.</p>
                     <p>La cantidad de placas va a definir la duración del tratamiento y dependiendo del grado de complejidad puede hacerse en una o dos etapas.</p>
                     <Link to="#faq" >
-                        <p className='small mb-5' style={{color:'var(--secondary)'}}> Consultá nuestras preguntas frecuentes </p>
+                        <p className='small mb-5' style={{color:'var(--secondary)'}}> Más información en nuestras consultas frecuentes </p>
                     </Link>
                 </div>
             </div>
