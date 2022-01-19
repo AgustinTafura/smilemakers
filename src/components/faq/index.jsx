@@ -36,7 +36,7 @@ return (
                                     <div className="accordion-body">
                                         {
                                             el.r.map(resp=>{return(
-                                                <p className="text-black-opacity-5" >{resp}</p>
+                                                <p key={index*Math.random()} className="text-black-opacity-5" >{resp}</p>
 
                                             )})
                                         }

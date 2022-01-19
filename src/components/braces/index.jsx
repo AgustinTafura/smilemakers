@@ -42,9 +42,9 @@ export const Braces = () => {
                                         style={{fontSize:'0.7rem', verticalAlign: 'text-top'}}>®</span></b> son placas 
                                         <strong> transparentes</strong> que funcionan alineando progresivamente tus
                                 dientes para ayudarte a lucir una sonrisa perfecta.</p>
-                            <p className="text-black-opacity-5">Son <strong>removibles</strong>, podés usarlas todo el
+                            <p className="">Son <strong>removibles</strong>, podés usarlas todo el
                                 dia excepto para comer y cepillar tus dientes.</p>
-                            <p className="text-black-opacity-5">Podés realizar ejercicio, hablar, besar y no vas a
+                            <p className="">Podés realizar ejercicio, hablar, besar y no vas a
                                 sentir que los llevas puestos.</p>
                         </div>
                     </div>

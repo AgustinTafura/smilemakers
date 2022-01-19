@@ -50,7 +50,7 @@ export const Benefits = () => {
                         <div key={index+benefit.title} className="col-md-6 col-lg-4">
                             <div className="site-block-feature-2 d-flex rounded mb-5">
                                 <div className="me-3">
-                                    <i className={`flaticon ${benefit.icon} fw-light fs-2`}></i>
+                                    <i data-aos="zoom-in" data-aos-duration="2000" className={`flaticon ${benefit.icon} fw-light fs-2`}></i>
                                 </div>
                                 <div className="text">
                                     <h3>{benefit.title}</h3>
