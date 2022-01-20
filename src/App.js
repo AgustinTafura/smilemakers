@@ -27,10 +27,11 @@ import { Booking } from './components/booking';
 import { Parallax } from './components/parallax';
 import { useEffect, useState} from 'react'
 import { Spinner } from './components/spinner';
+import { FindUs2 } from "./components/findUs2";
 
 function App() {
   
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   
   
   useEffect(() => {
@@ -63,6 +64,7 @@ function App() {
           <Treatment/>
           <Benefits/>
           <FindUs/>
+          <FindUs2/>
           <Booking/>
           <Parallax/>
           <Faq/>
