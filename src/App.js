@@ -20,18 +20,16 @@ import { Faq } from './components/faq';
 import { Braces } from './components/braces';
 import { Benefits } from './components/benefits';
 import { Treatment } from './components/treatment';
-import { FindUs } from './components/findUs';
 import { Footer } from './components/footer';
 import { Home } from './components/home';
 import { Booking } from './components/booking';
 import { Parallax } from './components/parallax';
 import { useEffect, useState} from 'react'
 import { Spinner } from './components/spinner';
-import { FindUs2 } from "./components/findUs2";
-
+import { FindUs } from './components/findUs'
 function App() {
   
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(true)
   
   
   useEffect(() => {
@@ -64,7 +62,6 @@ function App() {
           <Treatment/>
           <Benefits/>
           <FindUs/>
-          <FindUs2/>
           <Booking/>
           <Parallax/>
           <Faq/>
