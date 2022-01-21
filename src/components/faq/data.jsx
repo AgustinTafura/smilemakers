@@ -18,7 +18,7 @@ export const data = [
         ]
     },
     {
-        q: '¿Cómo limpiar tus Alienadores Invisibles?',
+        q: '¿Cómo limpiar los Alienadores Invisibles?',
         r: [
             'Es fundamental el cepillado diario tus alineadores SMILE MAKERS, lo ideal sería dos veces al día. Además recomendamos utilizar las pastillas efervescentes de corega, sumergiéndolos de 2 a 3 minutos diariamente o día por medio.',
             'Los alineadores pueden mancharse pues absorben la pigmentación de las comidas y bebidas que consumimos a diario. Cuánto se manchen va a depender de los hábitos alimenticios de cada persona. Bebidas como vino, café, mate, tienden a mancharlos, así como también el cigarrillo.',
@@ -51,12 +51,12 @@ export const data = [
         q: '¿Qué incluye el Kit Inicial?',
         r: [
             'Con la entrega de tus primeros alineadores SMILE MAKERS vamos a entregarte:',
-            '- Un neceser',
-            '- Pastillas blanqueadoras Corega para que puedas limpiarlos,',
-            '- Un cepillo de dientes @merakisustentable que son un 💯,',
-            '- Estuche para que puedas guardarlos cuando no los estes usando,',
-            '- Pasta dental,',
-            '- Elemento para quitar tus placas con mayor facilidad,',
+            '- Un neceser.',
+            '- Pastillas blanqueadoras Corega para que puedas limpiarlos.',
+            '- Un cepillo de dientes @merakisustentable.',
+            '- Estuche para que puedas guardarlos cuando no los estes usando.',
+            '- Pasta dental.',
+            '- Elemento para quitar tus placas con mayor facilidad.',
             '- Alcohol en aerosol para que lo lleves a todos lados y siempre que te los quites estés seguro de que tenes las manos desinfectadas.',
         ]
     },

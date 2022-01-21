@@ -9,7 +9,7 @@ export const Booking = () => {
                 <h2 className="site-heading text-black mb-5">
                     Turno <strong>Online</strong>
                 </h2>
-                <p className="lead">Aquí podrás obtener tu turno para la primera consulta en nuestro Centro ubicado en Av. Corrientes 4924, piso 6, Capital Federal.</p>
+                <p className="lead">Aquí podrás obtener tu turno para la consulta inicial en nuestro Centro ubicado en Av. Corrientes 4924, piso 6, Capital Federal.</p>
                 <p className="lead">Durante la primera consulta efecturemos un <strong> Diagnóstico Personalizado</strong> de tu caso. 
                 </p>
                 <p className="lead">
