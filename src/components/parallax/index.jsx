@@ -4,7 +4,7 @@ import "./index.scss"
 
 export const Parallax = () => {
     
-    const imgPath = `${process.env.PUBLIC_URL}/images/smiling.jpg`;
+    const imgPath = `${process.env.PUBLIC_URL}/images/girlSmiling.jpg`;
     
     useEffect(() => {
         const videoPath = `mp4:${process.env.PUBLIC_URL}/video/colocacion.mp4`;
