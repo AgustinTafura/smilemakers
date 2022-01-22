@@ -20,7 +20,7 @@ export const Booking = () => {
             <div className="col-lg-5 ">
                 <InlineWidget  
                     url={url}   
-                    styles={{minWidth: '360px', height: '930px',overflow: 'hidden'}}
+                    styles={{minWidth: '360px', height: '1000px',overflow: 'hidden'}}
                     prefill={{}}
                 />
             </div>
