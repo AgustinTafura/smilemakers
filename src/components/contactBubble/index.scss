@@ -1,12 +1,18 @@
-#flotante svg{
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    z-index: 1000;
-}
+#flotante {
 
-svg:hover {
-    transform: scale(1.1);
+    transition: opacity 0.5s linear 0s;
+
+    svg{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        z-index: 1000;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    
 }
