@@ -18,7 +18,8 @@ export const Booking = () => {
                 {/* <img width='330px' src={`${process.env.PUBLIC_URL}/images/braces2.png`} alt="smilemakers braces alineadores invisibles" 
                 className="img-fluid" style={{position:'absolute', top:'50%'}}/> */}
             <div className="col-lg-5 ">
-                <InlineWidget  
+                <InlineWidget
+                    title='calendly'  
                     url={url}   
                     styles={{minWidth: '360px', height: '1000px',overflow: 'hidden'}}
                     prefill={{}}

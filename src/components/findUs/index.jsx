@@ -11,16 +11,16 @@ export const FindUs = () => {
     const [windowWidth, setWindowWidth] = useState()
 
     const [professionals, setProfessionals] = useState([]);
-    const [city, setCity] = useState('');
+    const [citySelected, setCitySelected] = useState('');
     const [neighbourhood, setNeighbourhood] = useState('');
 
     const [cities, setCities] = useState({});
     const [neighbourhoods, setNeighbourhoods] = useState([]);
 
-    var citiesList = {}
-    var allNeighbourhoods = []
- 
-    const addAllCities = ()=>{
+    
+    const addPlaces = ()=>{
+        var citiesList = {}
+        var allNeighbourhoods = []
         data.forEach(el=>{
             if(!citiesList.hasOwnProperty(el.city)) {
                 citiesList[el.city] = []
@@ -28,24 +28,25 @@ export const FindUs = () => {
             !citiesList[el.city].includes(el.neighbourhood) && citiesList[el.city].push(el.neighbourhood)
         })
         setCities(citiesList)
-    }
 
-    const addAllNeighbourhoods = () => {
-        for (const [key, arr] of Object.entries(citiesList)) {
-            arr.map(el=>{
-                allNeighbourhoods.push(el)
+        Object.entries(citiesList).forEach((arr,key)=>{
+            
+            arr[1].map(el=>{
+                return allNeighbourhoods.push(el)
             })
-        }
-        setNeighbourhoods(allNeighbourhoods)    
+        })
+        setNeighbourhoods(allNeighbourhoods) 
     }
     
     const filterByCity = (el)=>{
         const citySelected = el.target.value
-        setCity(citySelected)
+        setCitySelected(citySelected)
         if( !citySelected ){
-            addAllNeighbourhoods()
+            document.getElementById("neighbourhood").disabled = true;
+            setNeighbourhood('')
             setProfessionals(data)
         } else {
+            document.getElementById("neighbourhood").disabled = false;
             const filteredProfessionals = data.filter(el=>el.city === citySelected)
             setNeighbourhoods(cities[citySelected]);
             setProfessionals(filteredProfessionals)
@@ -56,7 +57,7 @@ export const FindUs = () => {
         const neighbourhoodSelected = el.target.value
         setNeighbourhood(neighbourhoodSelected)
         if( !neighbourhoodSelected ){
-            const filteredProfessionals = data.filter(el=>el.city === city)
+            const filteredProfessionals = data.filter(el=>el.city === citySelected)
             setProfessionals(filteredProfessionals)
         } else {
             const filteredProfessionals = data.filter(el=>el.neighbourhood === neighbourhoodSelected)
@@ -66,8 +67,7 @@ export const FindUs = () => {
     }
     
     useEffect(() => {
-        addAllCities()
-        addAllNeighbourhoods()
+        addPlaces()
         setProfessionals(data)
         setWindowWidth(window.innerWidth)
         window.addEventListener('resize',()=>setWindowWidth(window.innerWidth)
@@ -86,7 +86,7 @@ export const FindUs = () => {
                         <div className='col-lg-3 align-self-center'>
                             <div className="mb-3">
                                 <label htmlFor="city" className="form-label">Distrito</label>
-                                <select className='form-select' name="city" value={city} onChange={filterByCity} >
+                                <select className='form-select' name="city" value={citySelected} onChange={filterByCity} >
                                     <option value=''>TODAS</option>
                                     {   Object.keys(cities).map(el=><option key={Math.random()} value={el}>{el.toUpperCase()}</option>) }
                                 </select>
@@ -94,7 +94,7 @@ export const FindUs = () => {
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="neighbourhood" className="form-label">Ciudad/Barrio</label>
-                                <select className='form-select' name="neighbourhood" value={neighbourhood} onChange={filterByNeighbourhood}>
+                                <select disabled className='form-select' name="neighbourhood" id="neighbourhood" value={neighbourhood} onChange={filterByNeighbourhood}>
                                     <option value=''>TODAS</option>
                                     {   neighbourhoods.map(el=><option value={el} key={Math.random()}>{el.toUpperCase()}</option>) }
                                 </select>
