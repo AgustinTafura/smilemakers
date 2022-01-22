@@ -1,0 +1,23 @@
+#home {
+
+    @media (max-width: 575.98px) { 
+
+        .row.align-items-center {
+            align-items: unset !important;
+        }
+
+        .title-container{
+            position: relative;
+        }
+
+        .title-body {
+            position: absolute;
+            top: 90px;
+        }
+
+        .title-button {
+            position: absolute;
+            bottom: 90px;
+        }
+    }    
+}
