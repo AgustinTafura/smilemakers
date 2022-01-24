@@ -8,10 +8,19 @@ export const Home = () => {
     const imageSmall = `${process.env.PUBLIC_URL}/images/homeSmall.jpg`;
     const imageBig = `${process.env.PUBLIC_URL}/images/homeBig.jpg`;
 
+    function toggleMobileMenu() {
+        if(windowWidth < 1200){
+            if(document.querySelector('body').classList.contains('offcanvas-menu')){
+                document.querySelector('body').classList.remove('offcanvas-menu')
+            } else {
+                document.querySelector('body').classList.add('offcanvas-menu')
+            }
+        }
+    }
+
     useEffect(() => {
         setWindowWidth(window.innerWidth)
         window.addEventListener('resize', ()=>setWindowWidth(window.innerWidth))
-        
         return () => {
             window.removeEventListener('resize',()=>setWindowWidth(window.innerWidth))
         }
@@ -26,7 +35,15 @@ export const Home = () => {
                         <span className="icon-close2 js-menu-toggle"></span>
                     </div>
                 </div>
-                <div className="site-mobile-menu-body"></div>
+                <div className="site-mobile-menu-body">
+                <ul class="site-nav-wrap">
+                    <li><Link onClick={toggleMobileMenu} to="#alineadores">Alineadores</Link></li>
+                    <li><Link onClick={toggleMobileMenu} to="#tratamiento">Tratamiento</Link></li>
+                    <li><Link onClick={toggleMobileMenu} to="#beneficios">Beneficios</Link></li>
+                    <li><Link onClick={toggleMobileMenu} to="#encontranos">Solicitar Turno</Link></li>
+                    <li><Link onClick={toggleMobileMenu} to="#odontologo">Soy Odontólogo</Link></li>
+                </ul>
+                </div>
             </div>
 
 

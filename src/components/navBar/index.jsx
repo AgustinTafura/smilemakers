@@ -5,7 +5,7 @@ import $ from 'jquery'
 import './index.scss'
 export const NavBar = () => {
 
-    const [windowWidth, setWindowWidth] = useState()
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
 
     function navBarColor() {
@@ -17,10 +17,10 @@ export const NavBar = () => {
 
     
     function siteMenuClone() {
-        $('.js-clone-nav').each(function () {
-            var $this = $(this);
-            $this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
-        });
+        // $('.js-clone-nav').each(function () {
+        //     var $this = $(this);
+        //     $this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
+        // });
 
 
 
@@ -63,6 +63,7 @@ export const NavBar = () => {
                     $('body').removeClass('offcanvas-menu');
                 }
             }
+            setWindowWidth(window.innerWidth)
         })
 
         $('body').on('click', '.js-menu-toggle', function (e) {
@@ -89,28 +90,13 @@ export const NavBar = () => {
         });
     };
 
-    function toggleMobileMenu() {
-        // console.log(windowWidth)
-        // // if(window.innerWidth < 1200) console.log('menor a 1200')
-        // // if(window.innerWidth > 1200) console.log('mayor a 1200')
 
-        // console.log(document.querySelector('body').classList.contains('offcanvas-menu'))
-        if(window.innerWidth < 1200){
-            if(document.querySelector('body').classList.contains('offcanvas-menu')){
-                document.querySelector('body').classList.add('offcanvas-menu')
-            } else {
-                document.querySelector('body').classList.remove('offcanvas-menu')
-            }
-
-        }
-    }
     function preventURLHashLink() {
         document.querySelectorAll('a').forEach(el=>{
             el.addEventListener('click',(e)=>{
                     if (el.hash.charAt(0) === "#") {
                         e.preventDefault()
                         document.querySelector(el.hash)?.scrollIntoView()
-                        toggleMobileMenu()
                     }
             })
         })
@@ -120,7 +106,6 @@ export const NavBar = () => {
         window.addEventListener('scroll',navBarColor)
         siteMenuClone();
         preventURLHashLink()
-
         return () =>{ 
             window.removeEventListener('scroll',navBarColor)
         }
@@ -148,7 +133,7 @@ export const NavBar = () => {
                                         <li><Link to="#tratamiento">Tratamiento</Link></li>
                                         <li><Link to="#beneficios">Beneficios</Link></li>
                                         <li><Link to="#encontranos">Solicitar Turno</Link></li>
-                                        <li><Link to="#odontologo">Soy Odontologo</Link></li>
+                                        <li><Link to="#odontologo">Soy Odontólogo</Link></li>
                                     </ul>
                                 </div>
                             </nav>
