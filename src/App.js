@@ -39,9 +39,11 @@ function App() {
       once: true
     });
   
-    setTimeout(() => {
-      setLoading(false)
-    }, 2100);
+    document.addEventListener('load', setLoading(false))
+
+    return () => {
+      document.removeEventListener('load', setLoading(false))
+    }
   }, [])
 
   if (loading){
@@ -55,8 +57,8 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter  basename={"/"}>
-        <NavBar/>
         <div className='site-wrap'>
+        <NavBar/>
           <Home/>
           <Braces/>
           <Treatment/>
