@@ -14,7 +14,7 @@ import AOS from 'aos';
 
 //components
 import { NavBar } from './components/navBar';
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom'
 import ContactBubble from './components/contactBubble';
 import { Faq } from './components/faq';
 import { Braces } from './components/braces';
@@ -56,19 +56,34 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter  basename={"/"}>
+      <BrowserRouter  basename={"/smilemakers"}>
         <div className='site-wrap'>
-        <NavBar/>
-          <Home/>
-          <Braces/>
-          <Treatment/>
-          <Benefits/>
-          <FindUs/>
-          <Booking/>
-          <Parallax/>
-          <Faq/>
+          
+          <NavBar/>
+
+          <Switch>
+              <Route exact path='/'>
+                <Home/>
+                <Braces/>
+                <Treatment/>
+                <Benefits/>
+                <FindUs/>
+                <Booking/>
+                <Parallax/>
+                <Faq/>
+              </Route>
+              <Route exact path='/profesional'>
+                hola
+              </Route>
+
+              <Route path="/**">
+                <Redirect to='/'/>
+              </Route>
+          </Switch>
+
           <Footer/>
           <ContactBubble/>
+
         </div>
       </BrowserRouter>
     </div>
