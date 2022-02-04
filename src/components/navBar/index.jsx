@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import $ from 'jquery'
 
 import './index.scss'
 export const NavBar = () => {
 
     const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+    const actualLocation = useLocation()
 
 
     function navBarColor() {
@@ -89,7 +90,7 @@ export const NavBar = () => {
                     <div className="row align-items-center">
                         <div className="col-2">
                             <div className='site-logo'>
-                                <img onClick={()=>window.scrollTo({ top: 0, behavior: 'smooth' })} src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo brand smilemakers"/>
+                                <img onClick={()=>window.scrollTo({ top: 0, behavior: 'smooth' })} src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo brand smilemakers" style={{cursor:'pointer'}}/>
                             </div>
                         </div>
                         <div className="col-10">
@@ -100,11 +101,20 @@ export const NavBar = () => {
                                                 className="icon-menu fs-1"></span></Link></div>
 
                                     <ul className="site-menu js-clone-nav d-none d-xl-block">
-                                        <li><Link to="#alineadores">Alineadores</Link></li>
-                                        <li><Link to="#tratamiento">Tratamiento</Link></li>
-                                        <li><Link to="#beneficios">Beneficios</Link></li>
-                                        <li><Link to="#encontranos">Solicitar Turno</Link></li>
-                                        <li><Link to="#odontologo">Soy Odontólogo</Link></li>
+                                    {
+                                        actualLocation.pathname === '/' ?
+                                        (
+                                            <>
+                                                    <li><Link to="#alineadores">Alineadores</Link></li>
+                                                    <li><Link to="#tratamiento">Tratamiento</Link></li>
+                                                    <li><Link to="#beneficios">Beneficios</Link></li>
+                                                    <li><Link to="#encontranos">Solicitar Turno</Link></li>
+                                                    <li><Link to="/profesional">Soy Odontólogo</Link></li>
+                                            </>
+                                        ) : (
+                                            <li><Link to="/">Volver</Link></li>
+                                        )
+                                    }
                                     </ul>
                                 </div>
                             </nav>
@@ -122,11 +132,20 @@ export const NavBar = () => {
                 </div>
                 <div className="site-mobile-menu-body">
                 <ul className="site-nav-wrap">
-                    <li><Link onClick={toggleMobileMenu} to="#alineadores">Alineadores</Link></li>
-                    <li><Link onClick={toggleMobileMenu} to="#tratamiento">Tratamiento</Link></li>
-                    <li><Link onClick={toggleMobileMenu} to="#beneficios">Beneficios</Link></li>
-                    <li><Link onClick={toggleMobileMenu} to="#encontranos">Solicitar Turno</Link></li>
-                    <li><Link onClick={toggleMobileMenu} to="#odontologo">Soy Odontólogo</Link></li>
+                    {
+                        actualLocation.pathname === '/' ?
+                        (
+                            <>
+                                <li><Link onClick={toggleMobileMenu} to="#alineadores">Alineadores</Link></li>
+                                <li><Link onClick={toggleMobileMenu} to="#tratamiento">Tratamiento</Link></li>
+                                <li><Link onClick={toggleMobileMenu} to="#beneficios">Beneficios</Link></li>
+                                <li><Link onClick={toggleMobileMenu} to="#encontranos">Solicitar Turno</Link></li>
+                                <li><Link onClick={toggleMobileMenu} to="/profesional">Soy Odontólogo</Link></li>
+                            </>
+                        ) : (
+                            <li><Link onClick={toggleMobileMenu} to="/">Volver</Link></li>
+                        )
+                    }
                 </ul>
                 </div>
             </div>
