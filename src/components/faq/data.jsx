@@ -18,7 +18,7 @@ export const data = [
         ]
     },
     {
-        q: '¿Cómo limpiar los Alienadores Invisibles?',
+        q: '¿Cómo limpiar los Alineadores Invisibles?',
         r: [
             'Es fundamental el cepillado diario tus alineadores SMILE MAKERS, lo ideal sería dos veces al día. Además recomendamos utilizar las pastillas efervescentes de corega, sumergiéndolos de 2 a 3 minutos diariamente o día por medio.',
             'Los alineadores pueden mancharse pues absorben la pigmentación de las comidas y bebidas que consumimos a diario. Cuánto se manchen va a depender de los hábitos alimenticios de cada persona. Bebidas como vino, café, mate, tienden a mancharlos, así como también el cigarrillo.',

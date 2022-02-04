@@ -10,7 +10,7 @@ export const data = [
 
     },
     {
-        address: 'bonpland 2376 piso 1 a',
+        address: 'bonpland 2376 piso 1 A',
         od: 'juliana saunders',
         neighbourhood: 'palermo',
         city: 'caba',
@@ -18,7 +18,7 @@ export const data = [
         img: 'julianasaunders_logo.jpg'
     },
     {
-        address: 'santa Fe 3444 piso 10 a',
+        address: 'santa Fe 3444 piso 10 A',
         business: 'consultorio drs. pelcman',
         neighbourhood: 'palermo',
         city: 'caba',
@@ -28,7 +28,7 @@ export const data = [
 
     },
     {
-        address: 'arenales 1961 piso 7 b',
+        address: 'arenales 1961 piso 7 B',
         od: 'romina vivanco',
         neighbourhood: 'recoleta',
         city: 'caba',
@@ -46,7 +46,7 @@ export const data = [
 
     },
     {
-        address: 'migueletes 863 4D',
+        address: 'migueletes 863 piso 4 D',
         od: 'laura randano',
         neighbourhood: 'palermo',
         city: 'caba',
@@ -86,5 +86,14 @@ export const data = [
         city: 'bsas',
         tel: '5491142416334',
         img: 'default_logo.jpg'
+    },
+    {
+        address: 'Azcuenaga 1541 piso 4 B ',
+        neighbourhood: 'recoleta',
+        city: 'caba',
+        whatsapp: '5491141994928',
+        business: 'Consultorio Grapsas',
+        img: 'grapsas_logo.jpg'
+
     },
 ]
