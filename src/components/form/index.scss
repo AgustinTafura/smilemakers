@@ -1,0 +1,57 @@
+#profesional-form {
+        
+    .border-md {
+        border-width: 2px;
+    }
+    
+    
+    .btn-primary {
+        background: var(--secondary);
+        border: none;
+        color: white;
+    }
+    
+    .btn-primary:focus {
+        background: #75afb9;
+    }
+    
+    .form-control:not(select) {
+        padding: 1.5rem 0.5rem;
+    }
+    
+    select.form-control {
+        height: 52px;
+        padding-left: 0.5rem;
+    }
+    
+    .form-control::placeholder {
+        color: #ccc;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+    .form-control:focus {
+        box-shadow: none;
+    }
+
+    .form-check-input{
+
+        &:checked {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+        }
+
+        &:focus {   
+            border-color: var(--secondary);
+            outline: 0;
+            box-shadow: '0 0 0 0.25rem rgb(13 110 253 / 25%)' !important
+        }
+    }
+
+
+    @media (min-width: 768px) {
+        .site-heading {
+            font-size: 2.5rem;
+        }
+    }
+
+}

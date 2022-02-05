@@ -1,4 +1,5 @@
 //styles
+import 'react-toastify/dist/ReactToastify.css';
 import 'aos/dist/aos.css'; 
 import 'magnific-popup/dist/magnific-popup.css'
 import './customBootstrap.scss';
@@ -27,6 +28,9 @@ import { Parallax } from './components/parallax';
 import { useEffect, useState} from 'react'
 import { Spinner } from './components/spinner';
 import { FindUs } from './components/findUs'
+import { Form } from './components/form';
+import { ToastContainer } from 'react-toastify';
+
 function App() {
   
   const [loading, setLoading] = useState(true)
@@ -73,7 +77,7 @@ function App() {
                 <Faq/>
               </Route>
               <Route exact path='/profesional'>
-                hola
+                <Form/>
               </Route>
 
               <Route path="/**">
@@ -82,8 +86,9 @@ function App() {
           </Switch>
 
           <Footer/>
+          
           <ContactBubble/>
-
+          <ToastContainer limit={1}/>
         </div>
       </BrowserRouter>
     </div>
