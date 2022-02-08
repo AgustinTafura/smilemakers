@@ -78,7 +78,7 @@ export const Form = () => {
 
     return (
         <div className="container" id='profesional-form' data-aos="fade">
-            <div className="row py-5 mt-4 align-items-center">
+            <div className="row align-items-center">
                 <div className="col-md-5 pr-lg-5 mb-5 mb-md-0">
                         <img src={`${process.env.PUBLIC_URL}/images/form_od.png`} alt=""
                         className="img-fluid mb-3 d-none d-md-block"/>

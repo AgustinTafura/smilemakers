@@ -30,6 +30,7 @@ import { Spinner } from './components/spinner';
 import { FindUs } from './components/findUs'
 import { Form } from './components/form';
 import { ToastContainer } from 'react-toastify';
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   
@@ -61,6 +62,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter  basename={"/smilemakers"}>
+      <ScrollToTop/>
+      <ContactBubble/>
+      <ToastContainer limit={1}/>
         <div className='site-wrap'>
           
           <NavBar/>
@@ -87,8 +91,6 @@ function App() {
 
           <Footer/>
           
-          <ContactBubble/>
-          <ToastContainer limit={1}/>
         </div>
       </BrowserRouter>
     </div>

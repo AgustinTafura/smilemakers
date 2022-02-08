@@ -76,11 +76,15 @@ export const NavBar = () => {
         setWindowWidth(window.innerWidth)
         window.addEventListener('scroll',navBarColor)
         siteMenuClone();
-        preventURLHashLink()
         return () =>{ 
             window.removeEventListener('scroll',navBarColor)
         }
     }, [])
+
+    useEffect(() => {
+        preventURLHashLink()
+    }, [actualLocation]);
+    
 
     return (
         <>
