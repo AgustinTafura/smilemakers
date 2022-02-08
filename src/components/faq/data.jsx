@@ -29,7 +29,7 @@ export const data = [
     {
         q: '¿Es un tratamiento doloroso?',
         r: [
-            'Los alineadores invisibles SMILE MAKERS no modifican el habla, puede ser que el primer día de uso sientas alguna diferencia pero pasado este tiempo no vas a sentir que los llevas puestos.',
+            'Los alineadores invisibles SMILE MAKERS no modifican el habla, puede ser que el primer día de uso sientas alguna diferencia, pero pasado este tiempo no vas a sentir que los llevas puestos.',
             'Al ser un tratamiento donde hay un movimiento progresivo de tus dientes, puede ser que sientas un leve dolor cada vez que cambiemos tus placas, que se va a disipar cuando estos se adapten al nuevo alineador.',
         ]
     },
@@ -44,7 +44,7 @@ export const data = [
         q: '¿Cada cuánto tiempo debo cambiar los alineadores?',
         r: [
             'Los alineadores invisibles SMILE MAKERS se cambian cada 20 días. No es necesario que el cambio se realice siempre en consultorio.',
-            'Dependiendo del caso, podemos entregarte algunas placas para que vos lo hagas en tu casa en la fecha pactada con el ortodoncista. Esto es una gran ventaja ya que podes irte de viaje y no retrasar el tiempo del tratamiento.'
+            'Dependiendo del caso, podemos entregarte algunas placas para que vos lo hagas en tu casa en la fecha pactada con el ortodoncista. Esto es una gran ventaja ya que podés irte de viaje y no retrasar el tiempo del tratamiento.'
         ]
     },
     {
@@ -57,7 +57,7 @@ export const data = [
             '- Estuche para que puedas guardarlos cuando no los estes usando.',
             '- Pasta dental.',
             '- Elemento para quitar tus placas con mayor facilidad.',
-            '- Alcohol en aerosol para que lo lleves a todos lados y siempre que te los quites estés seguro de que tenes las manos desinfectadas.',
+            '- Alcohol en aerosol para que lo lleves a todos lados y siempre que te los quites estés seguro de que tenés las manos desinfectadas.',
         ]
     },
 
