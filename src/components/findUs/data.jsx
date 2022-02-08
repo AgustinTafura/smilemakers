@@ -93,7 +93,8 @@ export const data = [
         city: 'caba',
         whatsapp: '5491141994928',
         business: 'Consultorio Grapsas',
-        img: 'grapsas_logo.jpg'
+        img: 'grapsas_logo.jpg',
+        od: 'caterina fovakis'
 
     },
 ]

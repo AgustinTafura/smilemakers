@@ -87,7 +87,7 @@ export const FindUs = () => {
                             <div className="mb-3">
                                 <label htmlFor="city" className="form-label">Distrito</label>
                                 <select className='form-select' name="city" value={citySelected} onChange={filterByCity} >
-                                    <option value=''>TODAS</option>
+                                    <option value=''>TODOS</option>
                                     {   Object.keys(cities).map(el=><option key={Math.random()} value={el}>{el.toUpperCase()}</option>) }
                                 </select>
 
@@ -95,12 +95,12 @@ export const FindUs = () => {
                             <div className="mb-3">
                                 <label htmlFor="neighbourhood" className="form-label">Ciudad/Barrio</label>
                                 <select disabled className='form-select' name="neighbourhood" id="neighbourhood" value={neighbourhood} onChange={filterByNeighbourhood}>
-                                    <option value=''>TODAS</option>
+                                    <option value=''>TODOS</option>
                                     {   neighbourhoods.map(el=><option value={el} key={Math.random()}>{el.toUpperCase()}</option>) }
                                 </select>
                             </div>
                         </div>
-                        <div className="col-lg-8 overflow-auto" style={{height: '60vh'}}>
+                        <div className="col-lg-8 overflow-auto table-container" style={{height: '60vh'}}>
                             <table className="table align-middle ">
                                 <thead>
                                 </thead>
@@ -109,15 +109,13 @@ export const FindUs = () => {
                                         professionals.map(professional=>{return(
                                             <tr key={Math.random()} style={{borderBottom: '4px solid #f8f9fd'}}>
                                                 <th><img src={`${process.env.PUBLIC_URL}/images/${professional.img}`} alt="" width={windowWidth > 576 ? '90px' : '60px'} style={{borderRadius:'50%'}} /></th>
-                                                {/* <td>
-                                                    <div className='fw-bold'>{capitalizeFirstLetter(professional.business ?? 'Consultorio')}</div>
-                                                    <div className='text-black-opacity-5 fs-6'>{capitalizeAllFirstletters(professional.od)}</div>
-                                                </td> */}
+
                                                 {
                                                     windowWidth >= 576 ?
                                                         <>
                                                             <td className='text-black-opacity-5 fs-6'>{capitalizeFirstLetter(professional.neighbourhood)}</td>
                                                             <td>
+                                                            <div className='text-black-opacity-5 fs-6'>{capitalizeAllFirstletters(professional.od)}</div>   
                                                                 <div className='fs-6'>{capitalizeFirstLetter(professional.address)}</div>
                                                             </td>
                                                         </>
@@ -126,7 +124,7 @@ export const FindUs = () => {
                                                         <>
                                                             <td>
                                                             <div className='fw-bold'>{capitalizeFirstLetter(professional.business ?? 'Consultorio')}</div>
-                                                    <div className='text-black-opacity-5 fs-6'>{capitalizeAllFirstletters(professional.od)}</div>   
+                                                            <div className='text-black-opacity-5 fs-6'>{capitalizeAllFirstletters(professional.od)}</div>   
                                                                 <div className='fs-6'>{capitalizeFirstLetter(professional.address)}</div>
                                                                 <div className='text-black-opacity-5 fs-6'>{capitalizeFirstLetter(professional.neighbourhood)}</div>
                                                             </td>
