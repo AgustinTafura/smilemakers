@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter  basename={"/smilemakers"}>
+      <BrowserRouter  >
       <ScrollToTop/>
       <ContactBubble/>
       <ToastContainer limit={1}/>
