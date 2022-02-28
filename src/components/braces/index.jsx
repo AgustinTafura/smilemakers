@@ -8,9 +8,9 @@ export const Braces = () => {
 
     const imgPath = `${process.env.PUBLIC_URL}/images/bracesSmiling.jpg`;
     useEffect(() => {
-        const videoPath = `mp4:/video/presentacion.mp4`;
+        const videoPath = `mp4:${process.env.PUBLIC_URL}/video/presentacion.mp4`;
         jarallaxVideo();
-        console.log(videoPath)
+
         jarallax(document.querySelectorAll('.jarallax-braces'), {
             speed: 0.2,
             videoSrc: videoPath,
