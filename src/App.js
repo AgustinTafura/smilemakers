@@ -43,8 +43,10 @@ function App() {
       easing: 'slide',
       once: true
     });
-  
-    document.addEventListener('load', setLoading(false))
+    
+    setTimeout(() => {
+      setLoading(false)
+    }, 2500);
 
     return () => {
       document.removeEventListener('load', setLoading(false))

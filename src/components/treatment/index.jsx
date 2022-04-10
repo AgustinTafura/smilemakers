@@ -17,6 +17,7 @@ export const Treatment = () => {
             type: "opacity",
             videoEndTime: 16.5,
             disableVideo: /iPad|iPhone|iPod/,
+            // videoLazyLoading: false
         });
     }, [])
 

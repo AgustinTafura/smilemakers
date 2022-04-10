@@ -16,7 +16,8 @@ export const Braces = () => {
             videoSrc: videoPath,
             type: "opacity",
             videoEndTime: 16.5,
-            disableVideo: /iPad|iPhone|iPod/
+            disableVideo: /iPad|iPhone|iPod/,
+            // videoLazyLoading: false
         });
 
         setWindowWidth(window.innerWidth)
