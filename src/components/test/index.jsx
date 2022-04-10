@@ -10,7 +10,7 @@ const isSafari = () => {
     return ua.indexOf("safari") > -1 && ua.indexOf("chrome") < 0;
 };
 
-const mainVideo = `${process.env.PUBLIC_URL}/video/colocacion.mp4`;
+const mainVideo = `https://smilemakers-ar.s3.us-east-2.amazonaws.com/video/colocacion.mp4`;
 
 const Test = () => {
     const videoParentRef = useRef();
